@@ -1,6 +1,6 @@
 # Jardín Digital de Rubén
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e8fc34b4-5cac-41a5-b3f6-ca40695dadbf/deploy-statusbranch=main)](https://app.netlify.com/sites/rr-digitalgarden/deploys?branch=main)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e8fc34b4-5cac-41a5-b3f6-ca40695dadbf/deploy-status?branch=main)](https://app.netlify.com/sites/rr-digitalgarden/deploys?branch=main)
 
 # References
 ## Digital Obsidian Garden
