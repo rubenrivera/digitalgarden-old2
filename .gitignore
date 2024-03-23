@@ -11,3 +11,8 @@ src/site/styles/_theme.*.css
 .cache
 _site/
 **/.DS_Store
+# Depends on branch
+README.md
+# Eleventy Serverless
+netlify/functions/dynamic/*
+!netlify/functions/dynamic/index.js
