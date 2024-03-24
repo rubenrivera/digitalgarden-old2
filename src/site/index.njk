@@ -1,20 +1,25 @@
 ---
 layout: /layouts/index.njk
+permalink:
+  dynamic: "/"
 ---
 <style>
-  /* Hide buttons */
-  button[name=provider] {
-    display: none;
-  }
+    /* Hide buttons */
+    button[name=provider] {
+        display: none;
+    }
 
-  /* Show selected buttons */
-  button[name=provider][value=stackexchange]{
-    display: inline-block;
-  }
+    /* Show selected buttons */
+    button[name=provider][value=stackexchange]{
+        display: inline-block;
+    }
 </style>
-<header>
-  <h1>Jardín Digital de Rubén</h1>
-</header>
+<h1>Jardín Digital de Rubén</h1>
+{% if user %}
+<a href="/secure/">You are already logged in!</a>
+
+{% include "logout.njk" %}
+{% else %}
 <form action="/.netlify/functions/auth-before">
   <input type="hidden" name="securePath" value="/secure/">
   <button type="submit" name="provider" value="netlify">Login with Netlify</button>
