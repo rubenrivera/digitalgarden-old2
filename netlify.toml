@@ -18,3 +18,12 @@ status = 200
 from = "/*"
 to = "/404"
 status = 404
+
+[[redirects]]
+from = "/"
+to = "/secure/"
+status = 302
+force = true
+
+  [redirects.conditions]
+  Cookie = [ "_11ty_oauth_token" ]

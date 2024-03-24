@@ -1,0 +1,7 @@
+{% if user %}
+¡Hola <a href="/user-data/">{{ user.name or user.full_name }}</a>!
+
+{% include "components/logout.njk" %}
+{% else %}
+{% include "components/auth-form.njk" %}
+{% endif %}

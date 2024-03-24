@@ -2,34 +2,10 @@
 layout: layouts/index.njk
 permalink: "/"
 ---
-<style>
-  /* Hide buttons */
-  button[name=provider] {
-    display: none;
-  }
-
-  /* Show selected buttons */
-  button[name=provider][value=stackexchange]{
-    display: inline-block;
-  }
-</style>
-<header>
-  <h1>Jardín Digital de Rubén</h1>
-</header>
-<form action="/.netlify/functions/auth-before">
-  <input type="hidden" name="securePath" value="/secure/">
-  <button type="submit" name="provider" value="netlify">Login with Netlify</button>
-  <button type="submit" name="provider" value="github">Login with GitHub</button>
-  <button type="submit" name="provider" value="gitlab">Login with GitLab</button>
-  <button type="submit" name="provider" value="slack">Login with Slack</button>
-  <button type="submit" name="provider" value="linkedin">Login with Linkedin</button>
-  <button type="submit" name="provider" value="stackexchange">Login with Stack Overflow</button>
-</form>
 <div>
   <ul>
-    <li><a href="https://stackapps.com/q/10533/105187"><i>Jardín Digital de Rubén</i> post on stackapps.com</a>
-    <li><a href="https://github.com/oleeskild/obsidian-digital-garden">Obsidian Digital Garden on GitHub</a>
-    <li><a href="https://github.com/rubenrivera/demo-eleventy-serverless-oauth/">Eleventy Serveless OAuth demo on GitHub</a>
-    
+    <li><a href="https://stackapps.com/q/10533/105187">Publicación en inglés en stackapps.com <em>Jardín Digital de Rubén</em></a>
+    <li><a href="https://github.com/oleeskild/obsidian-digital-garden">Obsidian Digital Garden en GitHub</a>
+    <li><a href="https://github.com/rubenrivera/demo-eleventy-serverless-oauth/">Demo de Eleventy Serveless OAuth en GitHub</a>
   </ul>
 </div>
