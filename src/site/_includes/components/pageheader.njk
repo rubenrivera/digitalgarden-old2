@@ -32,7 +32,9 @@
 <link href="{{style}}" rel="stylesheet">
 {%- endfor -%}
 
-{% favicons './src/site/favicon.svg', appleIconBgColor='#123' %}
+{%- if not eleventy.serverless %}
+    {% favicons './src/site/favicon.svg', appleIconBgColor='#123' %}
+{% endif %}
 
 {% if metatags %}
     {% for name, content in metatags %}
