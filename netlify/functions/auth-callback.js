@@ -34,7 +34,8 @@ exports.handler = async (event, context) => {
     // Take the grant code and exchange for an accessToken
     let accessToken, token;
     if(state.provider === "stackexchange") {
-      const url = config.tokenPath;
+      const quotaKey = config.quotaKeyValue;
+      const url = `${config.tokenPath}?key=${quotaKey}`;
       const data = {
         code: code,
         redirect_uri: config.redirect_uri,

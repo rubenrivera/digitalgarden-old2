@@ -16,3 +16,5 @@ README.md
 # Eleventy Serverless
 netlify/functions/dynamic/*
 !netlify/functions/dynamic/index.js
+# Development
+.env
