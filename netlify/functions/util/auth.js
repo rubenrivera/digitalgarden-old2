@@ -92,8 +92,8 @@ class OAuth {
         }
       }
 
-    console.log("[auth] url", url);  
-    console.log("[auth] options", options);  
+    // console.log("[auth] url", url);  
+    // console.log("[auth] options", options);  
     const response = await fetch(url, options);
   
     console.log( "[auth] getUser response status", response.status );
