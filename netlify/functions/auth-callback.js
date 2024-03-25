@@ -57,7 +57,7 @@ exports.handler = async (event, context) => {
         },
         body: formBody
       } 
-      console.log(`${url}, ${JSON.stringify(options)}`) 
+      // console.log(`${url}, ${JSON.stringify(options)}`) 
       const response = await fetch(url, options);
       const accessToken = await response.json();
       if(await response.status === 200){
@@ -75,7 +75,7 @@ exports.handler = async (event, context) => {
       });
 
       token = accessToken.token.access_token;
-      console.log( "[auth-callback]", { token } );
+      // console.log( "[auth-callback]", { token } );
     }
     // The noop key here is to workaround Netlify keeping query params on redirects
     // https://answers.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436/11
