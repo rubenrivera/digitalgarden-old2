@@ -4,6 +4,7 @@ permalink:
   dynamic: "/secure/"
 secure:
   unauthenticatedRedirect: "/"
+eleventyExcludeFromCollections: true
 ---
 <h2>{{ user.name or user.full_name or user.localizedFirstName or user.display_name }}, this page is secure.</h2>
 
