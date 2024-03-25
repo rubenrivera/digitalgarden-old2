@@ -96,7 +96,7 @@ class OAuth {
     // console.log("[auth] options", options);  
     const response = await fetch(url, options);
   
-    console.log( "[auth] getUser response status", response.status );
+    // console.log( "[auth] getUser response status", response.status );
     if (response.status !== 200) {
       throw new Error(`Error ${await response.text()}`)
     }
