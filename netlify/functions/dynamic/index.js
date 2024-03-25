@@ -36,6 +36,7 @@ async function handler(event) {
     path: event.path,
     query: event.queryStringParameters,
     functionsDir: "./netlify/functions/",
+    copy: ["./src/site/img/"],
     config: function(eleventyConfig) {
       if(user) {
         eleventyConfig.addGlobalData("user", user);
