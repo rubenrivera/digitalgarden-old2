@@ -44,23 +44,7 @@ async function handler(event) {
 
       // Adds `secure` data to JSON output
       eleventyConfig.dataFilterSelectors.add("secure");
-
-      // from Obsidian Digital Garden -> eleventy.js
-      
-      eleventyConfig.addPassthroughCopy("src/site/img");
-      eleventyConfig.addPassthroughCopy("src/site/scripts");
-      eleventyConfig.addPassthroughCopy("src/site/styles/_theme.*.css");
-      const faviconsPlugin = require("eleventy-plugin-gen-favicons");
-      eleventyConfig.addPlugin(faviconsPlugin, { outputDir: "dist" });
-      const tocPlugin = require("eleventy-plugin-nesting-toc");
-      eleventyConfig.addPlugin(tocPlugin, {
-        ul: true,
-        tags: ["h1", "h2", "h3", "h4", "h5", "h6"],
-      });
-
-      // favicon
-      eleventyConfig.addPassthroughCopy("src/site/favicon.svg");
-    }
+    }   
   });
 
   try {
