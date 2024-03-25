@@ -1,5 +1,5 @@
 {% if user %}
-¡Hola <a href="/user-data/">{{ user.name or user.full_name }}</a>!
+¡Hola <a href="/secure/">{{ user.name or user.full_name por user.display_name }}</a>!
 
 {% include "components/logout.njk" %}
 {% else %}
