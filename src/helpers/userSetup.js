@@ -10,7 +10,9 @@ function userEleventySetup(eleventyConfig) {
   eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
     name: "dynamic",
     functionsDir: "./netlify/functions/",
-    copy: ["./src/site/img/"]
+    copy: [
+      ".cache/eleventy-fetch/",
+    ]
   });
 }
 exports.userMarkdownSetup = userMarkdownSetup;
