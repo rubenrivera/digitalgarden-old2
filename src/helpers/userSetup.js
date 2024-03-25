@@ -11,7 +11,10 @@ function userEleventySetup(eleventyConfig) {
     name: "dynamic",
     functionsDir: "./netlify/functions/",
     copy: [
-      ".cache/eleventy-fetch/",
+      {
+        from: ".cache",
+        to: "tmp/.cache"
+      },
     ]
   });
 }
