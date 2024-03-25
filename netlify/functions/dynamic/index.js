@@ -44,7 +44,13 @@ async function handler(event) {
 
       // Adds `secure` data to JSON output
       eleventyConfig.dataFilterSelectors.add("secure");
-    }   
+    },
+    copy: [
+      {
+        from: ".cache",
+        to: "tmp/.cache"
+      }   
+    ]
   });
 
   try {
