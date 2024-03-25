@@ -49,6 +49,10 @@ async function handler(event) {
       {
         from: ".cache",
         to: "tmp/.cache"
+      },
+      { 
+        from: "dist",
+        to: "tmp/dist"
       }   
     ]
   });
