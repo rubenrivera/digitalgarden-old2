@@ -67,12 +67,15 @@ exports.handler = async (event, context) => {
         throw new Error(await response.statusText);
       }
     } else {
-      accessToken = await oauth.authorizationCode.getToken({
-        code: code,
-        redirect_uri: config.redirect_uri,
-        client_id: config.clientId,
-        client_secret: config.clientSecret
-      });
+      accessToken = await oauth.authorizationCode.getToken(
+        {
+          code: code,
+          redirect_uri: config.redirect_uri,
+          client_id: config.clientId,
+          client_secret: config.clientSecret
+        },
+        { json: true }
+      );
 
       token = accessToken.token.access_token;
       // console.log( "[auth-callback]", { token } );

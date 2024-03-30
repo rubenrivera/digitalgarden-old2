@@ -4,7 +4,8 @@
     display: none;
   }
   button[name=provider][value="stackexchange"],
-  button[name=provider][value="github"] {
+  button[name=provider][value="github"], 
+  button[name=provider][value="discord"] {
     display: inline-block;
   }
   select {
@@ -27,8 +28,9 @@
   </fieldset>
   <fieldset>
     <legend>Inicia sesión con otros servicios</legend>
-    <button type="submit" name="provider" value="netlify">Netlify</button>
+    <button type="submit" name="provider" value="discord">Discord</button>
     <button type="submit" name="provider" value="github">GitHub</button>
     <button type="submit" name="provider" value="gitlab">GitLab</button>
+    <button type="submit" name="provider" value="netlify">Netlify</button>
   </fieldset>
 </form>

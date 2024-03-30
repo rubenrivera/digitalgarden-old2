@@ -92,11 +92,38 @@ const stackexchange = {
   userApi: "https://api.stackexchange.com/2.3/me?order=desc&sort=reputation&site=stackoverflow",
 };
 
+// https://discord.com/developers/applications
+const discord = {
+  clientIdKey: "DISCORD_OAUTH_CLIENT_ID",
+  clientSecretKey: "DISCORD_OAUTH_CLIENT_SECRET",
+
+  /* OAuth API endpoints */
+  tokenHost: 'https://discord.com',
+  tokenPath: 'https://discord.com/api/oauth2/token',
+  authorizePath: 'https://discord.com/oauth2/authorize',
+  // https://discord.com/oauth2/authorize?client_id=1223014535510622359&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A8888%2F.netlify%2Ffunctions%2Fauth-callback&scope=identify
+  // https://discord.com/oauth2/authorize?client_id=1223014535510622359&response_type=code&redirect_uri=https%3A%2F%2Fjardindigital.rubenrivera.mx%2F.netlify%2Ffunctions%2Fauth-callback&scope=identify
+ 
+  // Client Install
+  // https://discord.com/oauth2/authorize?client_id=1223014535510622359
+  
+  
+  // https://discord.com/api/oauth2/token/revoke	Token Revocation URL
+  
+  /* Scope of access to request */
+  scope: 'identify',
+
+  /* User API endpoint */
+  userApi: "https://discord.com/users/@me",
+};
+
+
 module.exports = {
   netlify,
   github,
   gitlab,
   slack,
   linkedin,
-  stackexchange
+  stackexchange,
+  discord
 };
