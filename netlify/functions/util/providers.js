@@ -110,7 +110,9 @@ const discord = {
   
   // https://discord.com/api/oauth2/token/revoke	Token Revocation URL
   
-  
+  /* Scope of access to request */
+  scope: 'identify',
+
   /* User API endpoint */
   userApi: "https://discord.com/users/@me",
 };
