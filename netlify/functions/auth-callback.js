@@ -78,12 +78,12 @@ exports.handler = async (event, context) => {
       );
 
       token = accessToken.token.access_token;
-      console.log( "[auth-callback]", { token } );
+      // console.log( "[auth-callback]", { token } );
     }
     // The noop key here is to workaround Netlify keeping query params on redirects
     // https://answers.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436/11
     const URI = `${state.url}?noop`;
-    console.log( "[auth-callback]", { URI });
+    // console.log( "[auth-callback]", { URI });
 
     /* Redirect user to authorizationURI */
     return {
