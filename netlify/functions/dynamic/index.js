@@ -29,25 +29,25 @@ function transformImage(src, cls, alt, sizes, widths = ["500", "700", "auto"]) {
 async function handler(event) {
   let authToken;
   let provider;
+  let cookies;
+  // [dynamic] GET _11ty_oauth_provider and _11ty_oauth_token COOKIES
   if(event.headers && event.headers.cookie) {
-    let cookies = cookie.parse(event.headers.cookie);
-    if(cookies._11ty_oauth_provider) {
+      cookies = cookie.parse(event.headers.cookie);  
+    if(cookies) {
       provider = cookies._11ty_oauth_provider;
-    }
-    if(cookies._11ty_oauth_token) {
-      if(provider === "stackexchange"){
-        authToken = cookies._11ty_oauth_token;
-      } else {
-        authToken = tokens.decode(cookies._11ty_oauth_token);
+      authToken = provider === "stackexchange"
+        ? cookies._11ty_oauth_token
+        : tokens.decode(cookies._11ty_oauth_token);
       }
     }
-  }
 
   let user;
   let authError;
   try {
+    console.info("[dynamic] GET user")
     let oauth = new OAuth(provider);
     user = await oauth.getUser(authToken, provider);
+    console.log("[dynamic]", user.name || user.full_name || user.display_name);
   } catch(e) {
     authError = e;
   }
@@ -59,14 +59,16 @@ async function handler(event) {
     config: function(eleventyConfig) {
 
       if(user) {
-        eleventyConfig.addGlobalData("user", user);
+        eleventyConfig.addGlobalData("user", user);        
       }
 
       // Adds `secure` data to JSON output
       eleventyConfig.dataFilterSelectors.add("secure");
       
-      eleventyConfig.addPlugin(faviconsPlugin, { outputDir: "tmp/dist" });
+      // [Workaround] 
+      // eleventyConfig.addPlugin(faviconsPlugin, { outputDir: "tmp/dist" });
 
+      // Generate code of images for dynamic pages
       function fillPictureSourceSets(src, cls, alt, meta, width, imageTag) {
         imageTag.tagName = "picture";
         let html = `<source
@@ -100,8 +102,8 @@ async function handler(event) {
           />`;
         imageTag.innerHTML = html;
       }
-    
-    
+      
+      // Process images to be included on dynamic pages
       eleventyConfig.addTransform("picture", function (str) {
         if(process.env.USE_FULL_RESOLUTION_IMAGES === "true"){
           return str;
@@ -127,6 +129,7 @@ async function handler(event) {
               }
             } catch {
               // Make it fault tolarent.
+              console.info("There was an error when processing images for a dynamic page");
             }
           }
         }
@@ -134,6 +137,7 @@ async function handler(event) {
       });
 
     },
+    // [Workaround] to "ENODENT mkdir ./dist" error
     copy: [
       {
         from: ".cache",

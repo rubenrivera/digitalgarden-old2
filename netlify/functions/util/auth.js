@@ -86,6 +86,15 @@ class OAuth {
         });
       return { agent: httpsAgent }
     })()
+    : provider === "discord"
+    ? {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+        authorization: `${token.data.token_type} ${token.data.access_token}`
+      }
+    }
     : {
         method: 'GET',
         headers: {
@@ -94,16 +103,25 @@ class OAuth {
         }
       }
 
+      
     // console.log("[auth] url", url);  
     // console.log("[auth] options", options);  
     const response = await fetch(url, options);
   
-    // console.log( "[auth] getUser response status", response.status );
+    console.log( "[auth] getUser response status", response.status );
     if (response.status !== 200) {
       throw new Error(`Error ${await response.text()}`)
     }
     const data = await response.json();
-    return data.items[0];
+    console.log(data);
+    const user = (provider === "stackexchange") 
+      ? data.items[0]
+      : (provider === "discord")
+      ? data.data
+      : data;
+    // console.log("[dynamic]", user.name || user.full_name || user.display_name || user.username);
+    
+    return user
   }
 }
 

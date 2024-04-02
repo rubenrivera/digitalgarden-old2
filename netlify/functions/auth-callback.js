@@ -32,42 +32,11 @@ exports.handler = async (event, context) => {
     let config = oauth.config;
 
     // Take the grant code and exchange for an accessToken
-    let accessToken, token;
-    if(state.provider === "stackexchange") {
-      const quotaKey = config.quotaKeyValue;
-      const url = `${config.tokenPath}?key=${quotaKey}`;
-      const data = {
-        code: code,
-        redirect_uri: config.redirect_uri,
-        client_id: config.clientId,
-        client_secret: config.clientSecret,
-        state: event.queryStringParameters.state
-      };
-      let formBody = [];
-      for (let property in data) {
-        const encodedKey = encodeURIComponent(property);
-        const encodedValue = encodeURIComponent(data[property]);
-        formBody.push(encodedKey + "=" + encodedValue);
-      }
-      formBody = formBody.join("&");
-      const options = {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/x-www-form-urlencoded"
-        },
-        body: formBody
-      } 
-      // console.log(`${url}, ${JSON.stringify(options)}`) 
-      const response = await fetch(url, options);
-      const accessToken = await response.json();
-      if(await response.status === 200){
-        token = accessToken.access_token;
-        console.log('token: ' + token);
-      } else {
-        throw new Error(await response.statusText);
-      }
-    } else {
-      accessToken = await oauth.authorizationCode.getToken(
+    let token;
+      
+    const accessToken = state.provider === "stackexchange"
+    ? stackoverflow.getToken(code, config.redirect_uri)
+    : await oauth.authorizationCode.getToken(
         {
           code: code,
           redirect_uri: config.redirect_uri,
@@ -78,12 +47,12 @@ exports.handler = async (event, context) => {
       );
 
       token = accessToken.token.access_token;
-      // console.log( "[auth-callback]", { token } );
-    }
+      console.log( "[auth-callback]", { token } );
+    
     // The noop key here is to workaround Netlify keeping query params on redirects
     // https://answers.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436/11
     const URI = `${state.url}?noop`;
-    // console.log( "[auth-callback]", { URI });
+    console.log( "[auth-callback]", { URI });
 
     /* Redirect user to authorizationURI */
     return {
