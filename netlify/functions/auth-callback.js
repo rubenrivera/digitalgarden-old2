@@ -2,6 +2,7 @@ const cookie = require("cookie");
 const querystring = require("querystring");
 const { OAuth, tokens, getCookie } = require("./util/auth.js");
 
+const stackoverflow = require("./util/stackoverflow.js");
 
 // Function to handle netlify auth callback
 exports.handler = async (event, context) => {
@@ -34,20 +35,19 @@ exports.handler = async (event, context) => {
     // Take the grant code and exchange for an accessToken
     let token;
       
-    const accessToken = state.provider === "stackexchange"
-    ? stackoverflow.getToken(code, config.redirect_uri)
-    : await oauth.authorizationCode.getToken(
-        {
-          code: code,
-          redirect_uri: config.redirect_uri,
-          client_id: config.clientId,
-          client_secret: config.clientSecret
-        },
-        { json: true }
-      );
+    if(state.provider === "stackexchange"){
+      token = stackoverflow.getToken(code);
+    } else {
+      const access_token = await oauth.authorizationCode.getToken({
+        code: code,
+        redirect_uri: config.redirect_uri,
+        client_id: config.clientId,
+        client_secret: config.clientSecret
+      });
 
       token = accessToken.token.access_token;
-      console.log( "[auth-callback]", { token } );
+    }
+    console.log( "[auth-callback]", { token } );
     
     // The noop key here is to workaround Netlify keeping query params on redirects
     // https://answers.netlify.com/t/changes-to-redirects-with-query-string-parameters-are-coming/23436/11
@@ -66,7 +66,7 @@ exports.handler = async (event, context) => {
           // This cookie *must* be HttpOnly
           (state.provider === "stackexchange") 
             ? getCookie("_11ty_oauth_token", token, oauth.config.sessionExpiration)
-            : getCookie("_11ty_oauth_token", tokens.encode(token), oauth.config.sessionExpiration),
+            : getCookie("_11ty_oauth_token", (provider === "stackexchange") ? token : tokens.encode(token), oauth.config.sessionExpiration),
           getCookie("_11ty_oauth_provider", state.provider, oauth.config.sessionExpiration),
           getCookie("_11ty_oauth_csrf", "", -1),
         ]

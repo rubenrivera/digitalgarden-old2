@@ -46,7 +46,7 @@ class OAuth {
     } else if(this.provider === "linkedin") {
       Object.assign(cfg, providers.linkedin);
     } else if(this.provider === "stackexchange") {
-      Object.assign(cfg, providers.stackexchange);
+      Object.assign(cfg, providers.stackexchange);    
     } else if(this.provider === "discord") {
       Object.assign(cfg, providers.discord);
     } else {
