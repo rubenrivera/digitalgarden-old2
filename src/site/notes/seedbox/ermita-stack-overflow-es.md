@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"ermita-stack-overflow-es.md","permalink":"/ermita-stack-overflow-es/","title":"Ermita de Rubén en Stack Overflow en español","tags":["público","ermita"],"created":"2024-03-01T11:52:43.000-06:00","updated":"2024-03-04T17:53:08.167-06:00"}
+{"dg-publish":true,"dg-path":"ermita-stack-overflow-es.md","permalink":"/ermita-stack-overflow-es/","title":"Ermita de Rubén en Stack Overflow en español","tags":["ermita"],"created":"2024-03-01T11:52:43.000-06:00","updated":"2024-04-04T12:49:58.193-06:00"}
 ---
 
 # Ermita de Rubén en Stack Overflow en español
