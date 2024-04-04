@@ -5,8 +5,9 @@ const { EleventyServerless } = require("@11ty/eleventy");
 require("./eleventy-bundler-modules.js");
 
 async function handler(event) {
-  let elev = new EleventyServerless("dynamic", {
+  let elev = new EleventyServerless("serverless", {
     path: new URL(event.rawUrl).pathname,
+    singleTemplateScope: false,
     query: event.multiValueQueryStringParameters || event.queryStringParameters,
     functionsDir: "./netlify/functions/",
   });
@@ -51,7 +52,7 @@ async function handler(event) {
 //    2. Also use `redirects: "netlify-toml-builders"` in your config file’s serverless bundler options:
 //       https://www.11ty.dev/docs/plugins/serverless/#bundler-options
 
-exports.handler = handler;
+// exports.handler = handler;
 
-//const { builder } = require("@netlify/functions");
-//exports.handler = builder(handler);
+const { builder } = require("@netlify/functions");
+exports.handler = builder(handler);

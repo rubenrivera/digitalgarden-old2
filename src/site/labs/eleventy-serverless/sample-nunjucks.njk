@@ -1,0 +1,53 @@
+---js
+{
+	layout: "labs/eleventy-serverless/layout.njk",
+	localdata: "I am Local Data",
+	now: (new Date()).toISOString(),
+	permalink: {
+		build: "/labs/eleventy-serverless/",
+		serverless: "/labs/eleventy-serverless/:slug/",
+		dynamic: "/labs/eleventy-serverless/:slug/dynamic/",
+	}
+}
+---
+<h1>Welcome to Eleventy Serverless</h1>
+
+<ul>
+	<li><a href="/">Template render at Build Time</a></li>
+	<li><a href="/this-can-be-anything/">Template render on first-request only (On-demand Builder)</a></li>
+	<li><a href="/this-can-be-anything/dynamic/">Template render on every request</a></li>
+</ul>
+
+<p>{{ localdata }}</p>
+<p>{{ hi }}</p>
+<p>{{ globaldata }}</p>
+<p>{% include "labs/eleventy-serverless/include.njk" %}</p>
+
+<h2><code>new Date()</code></h2>
+<pre>{{ now }}</pre>
+
+<h2><code>page</code> Data:</h2>
+<pre>{{ page | dump(2) }}</pre>
+
+<h2><code>eleventy</code> Data:</h2>
+<pre>{{ eleventy | dump(2) }}</pre>
+
+<h2><code>collections</code></h2>
+
+<ul>
+{%- for name, collection in collections %}
+	{%- set size = collection | length %}
+	<li><code>{{ name }}</code>: {{ size }} file{% if size != 1 %}s{% endif %}</li>
+{%- endfor %}
+</ul>
+
+<p>Read more <a href="https://www.11ty.dev/docs/plugins/serverless/#collections-in-serverless">about collections in serverless</a>.</p>
+
+<details>
+	<summary><em>{{ page.inputPath }} Node.js fs stats</em></summary>
+	<pre>{{ page.inputPath | dateDebug | dump(2) }}</pre>
+</details>
+
+<footer>
+	<p>Using Eleventy {{ eleventy.version }}. <a href="https://github.com/11ty/demo-eleventy-serverless">Back to the <code>demo-eleventy-serverless</code> GitHub repo</a>.</p>
+</footer>

@@ -18,3 +18,6 @@ netlify/functions/dynamic/*
 !netlify/functions/dynamic/index.js
 # Development
 .env
+# demo-eleventy-serverless
+netlify/functions/serverless/*
+!netlify/functions/serverless/index.js
