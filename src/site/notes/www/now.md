@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/www/now/","title":"Ahora","tags":["www"],"created":"2024-03-19T12:19:27.427-06:00","updated":"2024-04-04T14:06:38.745-06:00"}
+{"dg-publish":true,"permalink":"/www/now/","title":"Ahora","tags":["www"],"created":"2024-03-19T12:19:27.427-06:00","updated":"2024-04-04T17:31:07.083-06:00"}
 ---
 
 # Ahora
@@ -11,57 +11,58 @@
 - [[references/Wikipedia/bienestar\|bienestar]]
 - [[Wicket's Quest\|Wicket's Quest]]
 
-
-<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
-
+## Bitácora
 
 
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/2024-04-04/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
-# Ahora en el Jardín Digital
 
-[[seedbox/202403201537#PLACEHOLDER - Jardín Digital de Rubén\|202403201537#PLACEHOLDER - Jardín Digital de Rubén]]
 
+
+# 2024-04-04
+
+## Inicio
+Hoy inicio con la Bitácora del Jardín Digital con el propósito de hacerlo un hábito el llevar un registro cambios relevantes.
+
+## Ayer
+
+El día de ayer agregué mis publicaciones en los sitios de la red Stack Exchange como notas. Se usó un query de Stack Exchange Data Explorer cuyo tamaño fue de 16MB. Fueron 6,603 notas. La de mayor tamaño fue de 33 KB, la segunda de 20 KB, la tercer de 19 KB. Hay 133 entre 5 y 17 KB. Los detalles del proceso de creación se indican en [[seedbox/202404031306\|Creación masiva de notas]].
+## Configuración de la bóveda
+
+Establecí en la configuración de la bóveda de este jardín digital que las propiedades se muestren como [[YAML\|YAML]] debido a que la característica que para mostrar las propiedades con formato no soporta objetos anidados y estos son requeridos por [[Eleventy Serverless\|Eleventy Serverless]].
+
+## Tareas
+
+### Problemas a resolver
+- [/] Al acceder la página de inicio (https://jardindigital.rubenrivera.mx) se muestra un error relacionado con las funciones de [[Netlify\|Netlify]].
+	- [x] Revisar la configuración de Obsidian Digital Garden
+		- Encontré que un mensaje de que había que iniciar sesión, con el emoji ❌. Creo que esto fue causado cuando cree https://demo-dg-oauth.netlify.app. Copie el token de la bóveda dg-testVault, la cual es la fuente para el jardín digital referido. Luego de esto se indica ✅.
+	- [x] Ejecutar el comando de publicación de Obsidian Digital Garden.
+		- Se publicaron 22  notas.
+	- [/] Esperar a que el proceso de despliegue de Netlify termine.
+		- Error.
+		- [-] Sincronizar el repositorio local y probar el funcionamiento en localhost.
+			- Error.
+	- [x] Cambio
+		- [x] Crear rama de respaldo.
+		- [x] Eliminar carpeta netlify.
+- [/] Agregar carpeta para experimentos
+	- [x] Agregar carpeta `labs` a la bóveda.
+	- [x] Agregar carpeta `/src/site/labs` al repositorio de GitHub.
+	- [x] Agregar [[demo-eleventy-serverless\|demo-eleventy-serverless]] y adaptarlo a la estructura del repositorio de [[Obsidian Digital Garden\|Obsidian Digital Garden]].
+		- [x] Agregar archivos `.njk` y `.md` a `/src/site/labs/eleventy-serverless`.
+		- [x] Agregar archivos de layout a `/src/site/_includes/`.
+		- [x] Agregar a `/src/helpers/userSetup.js` extractos de código a tomar de `eleventy.config.js`.
+		- [x] Modificar `.gitignore` para evitar sincronizar archivos creados por Eleventy Serverless.
+		- [/] Sincronizar y esperar a que el proceso de despliegue termine.
+		- [x] Publicar cambios de la bóveda.
+		- [ ] Confirmar que https://jardindigital.rubenrivera.mx/labs/eleventy-serverless funciona.
+			- Dos de tres hipervínculos no funcionan.
+			- [/] Corregir
+	- [ ] Volver a intentar agregar [[demo-eleventy-serverless-oauth\|demo-eleventy-serverless-oauth]] y adaptarlo a la estructura...
+		- [x] Crear carpeta para archivos de prueba a `/src/site/labs/eleventy-serverless-oauth`.
 ## Metadata
 - idioma:: español
-
-## Jardín Digital de Rubén 
-Se refiere a este sitio web cuyo contenido es creado mediante notas publicado usando algunas herramientas que se hacen cargo de automatizar la conversión formato requerido para poder ser accedido por cualquiera con un dispositivo y acceso a Internet.
-
-La idea es que la mayoría de las notas tengan un nombre de archivo único, un título descriptivo, enlaces entre ellas y con contenido externo, etiquetas y campos sacando provecho de las funciones de Obsidian y sus complementos Digital Garden, Data View entre otros.
-
-En algún momento este sitio servirá como punto de encuentro para tener conversaciones significativas.
-
-### Secciones Planeadas
-Por secciones en realidad me refiero a [[www/now#^3d6c2d\|tipos de notas]], algunas serán públicas otras privadas. Algunos tipos de notas se mostrarán en el panel de navegación, otros tendrán una etiqueta y/o campo y podrían tener un "mapa de ubicación".
-
-- Tipos de notas 	A continuación incluyo algunos ejemplos de tipos de notas.
-	- Semilla
-		La idea es tener un lugar donde encontrar las notas a partir de las cuales podrían desarrollar algunas ideas, iniciativas, cavilaciones, etc. La traducción del término usado para este tipo de notas es sería podría ser "plántula" pero me parece que no suena tan bien para quienes no estamos familiarizados con la botánica.
-	- Bitácora
-		La idea es crear notas de resumen de lo realizado en algún momento relevante como podrían algunos cambios que realize a este [[jardín digital\|jardín digital]].
-	- Privada
-		Tengo la intención de compartir notas con algunas personas en específico por lo cual he agregado la característica de autenticación (botones de login y logout, entre otras cosas). 
-	- Reunión
-		La notas de este tipo incluirán datos sobre alguna conversación, ya sea pasada o futura.
-
-## Características del sitio
-
-El complemento Digital Garden generan de forma automática algunas características, otras como la autenticación (botones login y logout) han sido agregadas por mí.
-
-### Características generadas por complementos de Obsidian
-
-#### Obsidian Digital Garden
-
-- Etiquetas
-- Panel de navegación
-- Búsqueda
-- Tabla de Contenido
-- Gráfico Local
-- Imágenes SVG
-- Fuente RSS
-	Sólo para notas públicas.
-
-#### Data View
-Listas y tablas automáticas
+- tipo:: nota diaria
 
 </div></div>
