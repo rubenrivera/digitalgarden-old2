@@ -3,20 +3,6 @@ publish = "dist"
 command = "npm install && npm run build"
 
 [[redirects]]
-from = "/"
-to = "/.netlify/functions/dynamic"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "dynamic"
-
-[[redirects]]
-from = "/secure/"
-to = "/.netlify/functions/dynamic"
-status = 200
-force = true
-_generated_by_eleventy_serverless = "dynamic"
-
-[[redirects]]
 from = "/api/*"
 to = "/.netlify/functions/:splat"
 status = 200
