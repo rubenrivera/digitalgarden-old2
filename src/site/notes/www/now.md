@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/www/now/","title":"Ahora","tags":["www"],"created":"2024-03-19T12:19:27.427-06:00","updated":"2024-04-04T17:31:07.083-06:00"}
+{"dg-publish":true,"dg-path":"now.md","permalink":"/now/","title":"Ahora","tags":["www"],"noteIcon":"\"0\"","created":"2024-03-19T12:19:27.427-06:00","updated":"2024-04-05T10:52:25.000-06:00"}
 ---
 
 # Ahora
@@ -11,58 +11,26 @@
 - [[references/Wikipedia/bienestar\|bienestar]]
 - [[Wicket's Quest\|Wicket's Quest]]
 
-## Bitácora
+
+<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/invernadero/202404051048/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
+
+<div class="markdown-embed-title">
+
+# Bitácora
+
+</div>
 
 
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/2024-04-04/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
 
+# Bitácora
 
+| Archivo                           | Título     |
+| --------------------------------- | ---------- |
+| [[log/2024-04-05\|2024-04-05]] | 2024-04-05 |
+| [[log/2024-04-04\|2024-04-04]] | 2024-04-04 |
 
-
-# 2024-04-04
-
-## Inicio
-Hoy inicio con la Bitácora del Jardín Digital con el propósito de hacerlo un hábito el llevar un registro cambios relevantes.
-
-## Ayer
-
-El día de ayer agregué mis publicaciones en los sitios de la red Stack Exchange como notas. Se usó un query de Stack Exchange Data Explorer cuyo tamaño fue de 16MB. Fueron 6,603 notas. La de mayor tamaño fue de 33 KB, la segunda de 20 KB, la tercer de 19 KB. Hay 133 entre 5 y 17 KB. Los detalles del proceso de creación se indican en [[seedbox/202404031306\|Creación masiva de notas]].
-## Configuración de la bóveda
-
-Establecí en la configuración de la bóveda de este jardín digital que las propiedades se muestren como [[YAML\|YAML]] debido a que la característica que para mostrar las propiedades con formato no soporta objetos anidados y estos son requeridos por [[Eleventy Serverless\|Eleventy Serverless]].
-
-## Tareas
-
-### Problemas a resolver
-- [/] Al acceder la página de inicio (https://jardindigital.rubenrivera.mx) se muestra un error relacionado con las funciones de [[Netlify\|Netlify]].
-	- [x] Revisar la configuración de Obsidian Digital Garden
-		- Encontré que un mensaje de que había que iniciar sesión, con el emoji ❌. Creo que esto fue causado cuando cree https://demo-dg-oauth.netlify.app. Copie el token de la bóveda dg-testVault, la cual es la fuente para el jardín digital referido. Luego de esto se indica ✅.
-	- [x] Ejecutar el comando de publicación de Obsidian Digital Garden.
-		- Se publicaron 22  notas.
-	- [/] Esperar a que el proceso de despliegue de Netlify termine.
-		- Error.
-		- [-] Sincronizar el repositorio local y probar el funcionamiento en localhost.
-			- Error.
-	- [x] Cambio
-		- [x] Crear rama de respaldo.
-		- [x] Eliminar carpeta netlify.
-- [/] Agregar carpeta para experimentos
-	- [x] Agregar carpeta `labs` a la bóveda.
-	- [x] Agregar carpeta `/src/site/labs` al repositorio de GitHub.
-	- [x] Agregar [[demo-eleventy-serverless\|demo-eleventy-serverless]] y adaptarlo a la estructura del repositorio de [[Obsidian Digital Garden\|Obsidian Digital Garden]].
-		- [x] Agregar archivos `.njk` y `.md` a `/src/site/labs/eleventy-serverless`.
-		- [x] Agregar archivos de layout a `/src/site/_includes/`.
-		- [x] Agregar a `/src/helpers/userSetup.js` extractos de código a tomar de `eleventy.config.js`.
-		- [x] Modificar `.gitignore` para evitar sincronizar archivos creados por Eleventy Serverless.
-		- [/] Sincronizar y esperar a que el proceso de despliegue termine.
-		- [x] Publicar cambios de la bóveda.
-		- [ ] Confirmar que https://jardindigital.rubenrivera.mx/labs/eleventy-serverless funciona.
-			- Dos de tres hipervínculos no funcionan.
-			- [/] Corregir
-	- [ ] Volver a intentar agregar [[demo-eleventy-serverless-oauth\|demo-eleventy-serverless-oauth]] y adaptarlo a la estructura...
-		- [x] Crear carpeta para archivos de prueba a `/src/site/labs/eleventy-serverless-oauth`.
+{ .block-language-dataview}
 ## Metadata
 - idioma:: español
-- tipo:: nota diaria
 
 </div></div>
