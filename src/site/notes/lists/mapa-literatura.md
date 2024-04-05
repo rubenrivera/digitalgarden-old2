@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lists/mapa-literatura/","title":"Mapa de Conceptos","tags":["público","mapa"],"dgShowLocalGraph":true,"created":"2024-03-04T10:39:17.632-06:00","updated":"2024-03-04T10:42:51.146-06:00"}
+{"dg-publish":true,"dg-path":"Información/Mapas/mapa-literatura.md","permalink":"/informacion/mapas/mapa-literatura/","title":"Mapa de Conceptos","tags":["público","mapa"],"dgShowLocalGraph":true,"noteIcon":"signpost","created":"2024-03-04T10:39:17.632-06:00","updated":"2024-03-04T10:42:51.146-06:00"}
 ---
 
 # Mapa de Literatura
