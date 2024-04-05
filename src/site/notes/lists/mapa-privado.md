@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lists/mapa-privado/","title":"Mapa de Notas Privadas","tags":["mapa","privado"],"created":"2024-03-03T14:32:01.524-06:00","updated":"2024-03-05T10:31:11.358-06:00"}
+{"dg-publish":true,"dg-path":"Información/Mapas/mapa-privado.md","permalink":"/informacion/mapas/mapa-privado/","title":"Mapa de Notas Privadas","tags":["mapa","privado"],"noteIcon":"signpost","created":"2024-03-03T14:32:01.524-06:00","updated":"2024-03-05T10:31:11.358-06:00"}
 ---
 
 # Notas Privadas
