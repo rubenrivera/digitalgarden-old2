@@ -1,0 +1,1 @@
+`=IMPORTXML("https://play.google.com/store/apps/details?id=es.lfp.gi.main","(//span[contains(@class, 'htlgb')])[3]")`
