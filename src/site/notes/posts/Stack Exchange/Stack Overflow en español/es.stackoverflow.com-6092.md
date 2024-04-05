@@ -1,0 +1,1 @@
+`=COUNTA(data!A:A)`
