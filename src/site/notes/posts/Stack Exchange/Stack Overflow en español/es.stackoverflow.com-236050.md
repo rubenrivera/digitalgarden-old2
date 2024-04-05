@@ -1,0 +1,1 @@
+`=QUERY(A2:E6;"select avg(A) pivot B")`
