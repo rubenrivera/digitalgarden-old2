@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/labs/alt-checkboxes/alt-checkboxes-overview/","title":"Casillas de Verificación Alternativas","tags":["labs"],"created":"2024-04-05T10:55:37.444-06:00","updated":"2024-04-05T11:29:47.865-06:00"}
+{"dg-publish":true,"dg-path":"Taller/alt-checkboxes/alt-checkboxes-overview.md","permalink":"/taller/alt-checkboxes/alt-checkboxes-overview/","title":"Casillas de Verificación Alternativas","tags":["labs"],"noteIcon":1,"created":"2024-04-05T10:55:37.000-06:00","updated":"2024-04-05T16:00:15.120-06:00"}
 ---
 
 
@@ -34,7 +34,14 @@ De https://minimal.guide/checklists, tomado el 5 de abril de 2024.
 > | `- [u]` | up          |
 > | `- [d]` | down        |
 
----
+
+## Expresión Regular
+
+```js
+/^\[[/-><\?\!\*"lbiSIpcfkwud]\][ \u00A0]/
+```
+
+## Lista para verificación
 
  - [ ]   to-do       
  - [/]   incomplete  
