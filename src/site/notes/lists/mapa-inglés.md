@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lists/mapa-ingles/","title":"Mapa de Notas en inglés","tags":["público","mapa"],"dgShowLocalGraph":true,"created":"2024-03-04T11:07:42.053-06:00","updated":"2024-03-04T11:10:12.277-06:00"}
+{"dg-publish":true,"dg-path":"Información/Mapas/mapa-inglés.md","permalink":"/informacion/mapas/mapa-ingles/","title":"Mapa de Notas en inglés","tags":["público","mapa"],"dgShowLocalGraph":true,"noteIcon":"signpost","created":"2024-03-04T11:07:42.053-06:00","updated":"2024-03-04T11:10:12.277-06:00"}
 ---
 
 # English Notes Map
