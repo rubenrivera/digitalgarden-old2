@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lists/mapa-conceptos/","title":"Mapa de Conceptos","tags":["público","mapa"],"dgShowLocalGraph":true,"created":"2024-03-03T16:07:22.409-06:00","updated":"2024-03-04T10:42:13.678-06:00"}
+{"dg-publish":true,"dg-path":"Información/Mapas/mapa-conceptos.md","permalink":"/informacion/mapas/mapa-conceptos/","title":"Mapa de Conceptos","tags":["público","mapa"],"dgShowLocalGraph":true,"noteIcon":"signpost","created":"2024-03-03T16:07:22.409-06:00","updated":"2024-03-04T10:42:13.678-06:00"}
 ---
 
 # Mapa de Conceptos
