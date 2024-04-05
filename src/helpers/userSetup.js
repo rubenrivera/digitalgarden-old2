@@ -9,7 +9,11 @@ function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.
   // Feel free to add any plugin you want here instead of /.eleventy.js
   // Render on first-request
-	eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+
+  /**
+   * demo-eleventy-severless
+   */
+  eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
 		name: "serverless",
 		functionsDir: "./netlify/functions/",
 		redirects: "netlify-toml-builders",
@@ -26,6 +30,10 @@ function userEleventySetup(eleventyConfig) {
 	eleventyConfig.addFilter("dateDebug", inputPath => {
 		return fs.statSync(inputPath);
 	})
+
+  /**
+   * demo-eleventy-severless-oauth
+   */
 }
 exports.userMarkdownSetup = userMarkdownSetup;
 exports.userEleventySetup = userEleventySetup;
