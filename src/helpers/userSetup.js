@@ -4,7 +4,7 @@ const fs = require("fs");
 function userMarkdownSetup(md) {
   // The md parameter stands for the markdown-it instance used throughout the site generator.
   // Feel free to add any plugin you want here instead of /.eleventy.js
-  const altCheckbox = require('alt-markdown-it-tastk-checkbox.js');
+  const altCheckbox = require('./alt-markdown-it-task-checkbox.js');
   altCheckbox(md);
   
 }
