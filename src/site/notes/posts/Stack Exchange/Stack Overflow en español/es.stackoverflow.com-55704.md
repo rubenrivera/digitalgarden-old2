@@ -1,0 +1,1 @@
+`=ArrayFormula(REGEXEXTRACT(A1,{".{1}",".{2}"}))`
