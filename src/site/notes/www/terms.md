@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/www/terms/","title":"Términos del Servicio","tags":["www"],"created":"2024-03-29T12:07:08.481-06:00","updated":"2024-04-04T14:07:37.655-06:00"}
+{"dg-publish":true,"dg-path":"terms.md","permalink":"/terms/","title":"Términos del Servicio","tags":["www"],"noteIcon":"1","created":"2024-03-29T12:07:08.481-06:00","updated":"2024-04-04T14:07:37.655-06:00"}
 ---
 
 # Términos del Servicio
