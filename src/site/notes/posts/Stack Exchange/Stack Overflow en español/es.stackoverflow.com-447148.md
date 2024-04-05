@@ -1,0 +1,1 @@
+`=TRAERDATOS(A1)`
