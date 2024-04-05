@@ -1,0 +1,1 @@
+`=contarcolor ("#FF0000", "A1:B5")`
