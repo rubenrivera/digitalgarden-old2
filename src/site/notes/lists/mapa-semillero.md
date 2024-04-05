@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/lists/mapa-semillero/","title":"Semillero","tags":["público","mapa"],"dgLinkPreview":true,"created":"2024-03-01T17:08:21.258-06:00","updated":"2024-03-04T10:41:47.819-06:00"}
+{"dg-publish":true,"dg-path":"Información/Mapas/mapa-semillero.md","permalink":"/informacion/mapas/mapa-semillero/","title":"Semillero","tags":["público","mapa"],"dgLinkPreview":true,"noteIcon":"signpost","created":"2024-03-01T17:08:21.258-06:00","updated":"2024-03-04T10:41:47.819-06:00"}
 ---
 
 # Semillero
