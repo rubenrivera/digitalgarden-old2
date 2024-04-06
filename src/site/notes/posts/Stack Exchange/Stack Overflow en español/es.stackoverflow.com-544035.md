@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-544035.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-544035/","title":"¿Es posible lanzar un correo automático programado en Apps Script desde un correo distinto al mio (ejecutador)?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.417-06:00","updated":"2024-04-05T16:43:57.903-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-544035.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-544035/","title":"¿Es posible lanzar un correo automático programado en Apps Script desde un correo distinto al mio (ejecutador)?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.417-06:00","updated":"2024-04-05T16:43:57.903-06:00"}
 ---
 
 # ¿Es posible lanzar un correo automático programado en Apps Script desde un correo distinto al mio (ejecutador)?
