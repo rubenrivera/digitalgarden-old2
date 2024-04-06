@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2039.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2039/","title":"¿Estaría bien separar en dos el motivo de cierre \"Parece ser un problema que no se puede reproducir o un error tipográfico\"?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.630-06:00","updated":"2024-04-05T16:44:01.250-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2039.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2039/","title":"¿Estaría bien separar en dos el motivo de cierre \"Parece ser un problema que no se puede reproducir o un error tipográfico\"?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.630-06:00","updated":"2024-04-05T16:44:01.250-06:00"}
 ---
 
 # ¿Estaría bien separar en dos el motivo de cierre "Parece ser un problema que no se puede reproducir o un error tipográfico"?
