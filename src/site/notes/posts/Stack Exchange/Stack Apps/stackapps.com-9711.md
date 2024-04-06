@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Apps/stackapps.com-9711.md","permalink":"/publicaciones-externas/stack-exchange/stack-apps/stackapps-com-9711/","title":"PLACEHOLDER - Export to Google Docs™","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:20:11.701-06:00","updated":"2024-04-05T16:43:26.614-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Apps/stackapps.com-9711.md","permalink":"/publicaciones-externas/stack-exchange/stack-apps/stackapps-com-9711/","title":"PLACEHOLDER - Export to Google Docs™","hide":true,"noteIcon":"default","created":"2024-04-03T12:20:11.701-06:00","updated":"2024-04-05T16:43:26.614-06:00"}
 ---
 
 # PLACEHOLDER - Export to Google Docs™
