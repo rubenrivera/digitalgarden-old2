@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-64688.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-64688/","title":"¿Cómo mostrar u ocultar un input de acuerdo al valor de un checkbox con JQuery?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.592-06:00","updated":"2024-04-05T16:43:50.035-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-64688.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-64688/","title":"¿Cómo mostrar u ocultar un input de acuerdo al valor de un checkbox con JQuery?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.592-06:00","updated":"2024-04-05T16:43:50.035-06:00"}
 ---
 
 # ¿Cómo mostrar u ocultar un input de acuerdo al valor de un checkbox con JQuery?
