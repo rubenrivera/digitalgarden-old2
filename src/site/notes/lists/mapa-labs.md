@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Información/Mapas/mapa-labs.md","permalink":"/informacion/mapas/mapa-labs/","title":"Mapa de Experimentos","tags":["mapa"],"noteIcon":"\"0\"","created":"2024-04-04T17:35:14.900-06:00","updated":"2024-04-04T18:12:59.508-06:00"}
+{"dg-publish":true,"dg-path":"Información/Mapas/mapa-labs.md","permalink":"/informacion/mapas/mapa-labs/","title":"Mapa de Experimentos","tags":["mapa"],"noteIcon":"default","created":"2024-04-04T17:35:14.900-06:00","updated":"2024-04-04T18:12:59.508-06:00"}
 ---
 
 # Mapa de Experimentos
