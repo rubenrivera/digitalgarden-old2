@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-159425.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-159425/","title":"¿Cómo concatenar o combinar números de varias columnas en una sola sin perder los ceros que hay a la izquierda?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.626-06:00","updated":"2024-04-05T16:43:53.696-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-159425.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-159425/","title":"¿Cómo concatenar o combinar números de varias columnas en una sola sin perder los ceros que hay a la izquierda?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.626-06:00","updated":"2024-04-05T16:43:53.696-06:00"}
 ---
 
 # ¿Cómo concatenar o combinar números de varias columnas en una sola sin perder los ceros que hay a la izquierda?
