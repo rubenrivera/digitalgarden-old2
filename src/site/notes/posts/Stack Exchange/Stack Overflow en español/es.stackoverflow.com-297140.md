@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-297140.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-297140/","title":"Error en Mis proyectos en Apps Script","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.760-06:00","updated":"2024-04-05T16:43:56.174-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-297140.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-297140/","title":"Error en Mis proyectos en Apps Script","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.760-06:00","updated":"2024-04-05T16:43:56.174-06:00"}
 ---
 
 # Error en Mis proyectos en Apps Script
