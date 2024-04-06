@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2317.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2317/","title":"¿Tienes a alguien que quisieras que se anime a entrar a la carrera para ser moderador del sitio?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.763-06:00","updated":"2024-04-05T16:44:01.627-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2317.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2317/","title":"¿Tienes a alguien que quisieras que se anime a entrar a la carrera para ser moderador del sitio?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.763-06:00","updated":"2024-04-05T16:44:01.627-06:00"}
 ---
 
 # ¿Tienes a alguien que quisieras que se anime a entrar a la carrera para ser moderador del sitio?
