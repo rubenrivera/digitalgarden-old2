@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-546902.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-546902/","title":"¿por qué me sigue apareciendo Cannot read property 'getRange' of undefined?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.418-06:00","updated":"2024-04-05T16:43:57.939-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-546902.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-546902/","title":"¿por qué me sigue apareciendo Cannot read property 'getRange' of undefined?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.418-06:00","updated":"2024-04-05T16:43:57.939-06:00"}
 ---
 
 # ¿por qué me sigue apareciendo Cannot read property 'getRange' of undefined?
