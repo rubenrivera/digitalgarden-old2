@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-1735.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-1735/","title":"¿Qué hacer cuando una pregunta está marcada cómo duplicada y es mejor que la original?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.510-06:00","updated":"2024-04-05T16:44:00.770-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-1735.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-1735/","title":"¿Qué hacer cuando una pregunta está marcada cómo duplicada y es mejor que la original?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.510-06:00","updated":"2024-04-05T16:44:00.770-06:00"}
 ---
 
 # ¿Qué hacer cuando una pregunta está marcada cómo duplicada y es mejor que la original?
