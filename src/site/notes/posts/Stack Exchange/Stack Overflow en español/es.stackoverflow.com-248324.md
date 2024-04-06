@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-248324.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-248324/","title":"¿Cómo establecer una fecha de expiración de acceso a un archivo en Google Drive a partir de un plazo establecido en días?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.728-06:00","updated":"2024-04-05T16:43:55.061-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-248324.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-248324/","title":"¿Cómo establecer una fecha de expiración de acceso a un archivo en Google Drive a partir de un plazo establecido en días?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.728-06:00","updated":"2024-04-05T16:43:55.061-06:00"}
 ---
 
 # ¿Cómo establecer una fecha de expiración de acceso a un archivo en Google Drive a partir de un plazo establecido en días?
