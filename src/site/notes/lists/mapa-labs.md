@@ -12,5 +12,8 @@
 | [[labs/authentication/stackoverflow\|stackoverflow]]                     | Proveedor de OAuth: Stack Oveflow     |             |
 | [[labs/eleventy-serverless/eleventy-serverless\|eleventy-serverless]]    | Eleventy Serverless                   |             |
 | [[labs/cookies-policy/cookies-policy\|cookies-policy]]                   | Mostrar aviso de política de cookies  |             |
+| [[labs/i18n/i18n-overview\|i18n-overview]]                               | Internacionalización                  | \-          |
+| [[labs/i18n/es/i18n-demo\|i18n-demo]]                                    | Internacionalización                  | \-          |
+| [[labs/i18n/en/i18n-demo\|i18n-demo]]                                    | Internationalization                  | \-          |
 
 { .block-language-dataview}
