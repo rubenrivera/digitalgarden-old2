@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-1897.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-1897/","title":"¿Que hacer cuando respuesta es la solución de una pregunta pero fomenta a los usuarios a hacer preguntas que no cumplen con las reglas?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.630-06:00","updated":"2024-04-05T16:44:01.121-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-1897.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-1897/","title":"¿Que hacer cuando respuesta es la solución de una pregunta pero fomenta a los usuarios a hacer preguntas que no cumplen con las reglas?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.630-06:00","updated":"2024-04-05T16:44:01.121-06:00"}
 ---
 
 # ¿Que hacer cuando respuesta es la solución de una pregunta pero fomenta a los usuarios a hacer preguntas que no cumplen con las reglas?
