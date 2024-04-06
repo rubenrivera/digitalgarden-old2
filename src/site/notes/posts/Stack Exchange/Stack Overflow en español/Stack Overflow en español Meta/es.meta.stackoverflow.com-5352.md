@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-5352.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-5352/","title":"¿Podemos quitar los enlaces agregados en preguntas donde claramente busquen SEO?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.764-06:00","updated":"2024-04-05T16:44:04.559-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-5352.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-5352/","title":"¿Podemos quitar los enlaces agregados en preguntas donde claramente busquen SEO?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.764-06:00","updated":"2024-04-05T16:44:04.559-06:00"}
 ---
 
 # ¿Podemos quitar los enlaces agregados en preguntas donde claramente busquen SEO?
