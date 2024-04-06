@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Apps/stackapps.com-10533.md","permalink":"/publicaciones-externas/stack-exchange/stack-apps/stackapps-com-10533/","title":"PLACEHOLDER - Jardín Digital de Rubén","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:20:11.702-06:00","updated":"2024-04-05T16:43:26.640-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Apps/stackapps.com-10533.md","permalink":"/publicaciones-externas/stack-exchange/stack-apps/stackapps-com-10533/","title":"PLACEHOLDER - Jardín Digital de Rubén","hide":true,"noteIcon":"default","created":"2024-04-03T12:20:11.702-06:00","updated":"2024-04-05T16:43:26.640-06:00"}
 ---
 
 # PLACEHOLDER - Jardín Digital de Rubén
