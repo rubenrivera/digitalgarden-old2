@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-263949.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-263949/","title":"copiar de la hoja inicial","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.760-06:00","updated":"2024-04-05T16:43:55.350-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-263949.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-263949/","title":"copiar de la hoja inicial","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.760-06:00","updated":"2024-04-05T16:43:55.350-06:00"}
 ---
 
 # copiar de la hoja inicial
