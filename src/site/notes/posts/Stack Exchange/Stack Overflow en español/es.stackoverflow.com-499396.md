@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-499396.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-499396/","title":"Copiar URL de un formulario completado de google forms para poder editarlo posteriormente desde una lista en pagina web","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.680-06:00","updated":"2024-04-05T16:43:57.573-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-499396.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-499396/","title":"Copiar URL de un formulario completado de google forms para poder editarlo posteriormente desde una lista en pagina web","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.680-06:00","updated":"2024-04-05T16:43:57.573-06:00"}
 ---
 
 # Copiar URL de un formulario completado de google forms para poder editarlo posteriormente desde una lista en pagina web
