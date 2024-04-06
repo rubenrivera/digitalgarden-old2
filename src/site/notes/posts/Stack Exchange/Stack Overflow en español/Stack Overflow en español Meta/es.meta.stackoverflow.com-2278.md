@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2278.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2278/","title":"¿Existe o debería crearse un grupo en Telegram de Stack Overflow?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.763-06:00","updated":"2024-04-05T16:44:01.505-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2278.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2278/","title":"¿Existe o debería crearse un grupo en Telegram de Stack Overflow?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.763-06:00","updated":"2024-04-05T16:44:01.505-06:00"}
 ---
 
 # ¿Existe o debería crearse un grupo en Telegram de Stack Overflow?
