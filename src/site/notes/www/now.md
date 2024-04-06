@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"now.md","permalink":"/now/","title":"Ahora","tags":["www"],"noteIcon":"\"0\"","created":"2024-03-19T12:19:27.427-06:00","updated":"2024-04-05T10:52:25.000-06:00"}
+{"dg-publish":true,"dg-path":"now.md","permalink":"/now/","title":"Ahora","tags":["www"],"noteIcon":"default","created":"2024-03-19T12:19:27.427-06:00","updated":"2024-04-05T10:52:25.000-06:00"}
 ---
 
 # Ahora
