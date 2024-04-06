@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3647.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3647/","title":"¿Qué debemos hacer con las recomendaciones que mandan a leer una respuesta en inglés?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.764-06:00","updated":"2024-04-05T16:44:03.713-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3647.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3647/","title":"¿Qué debemos hacer con las recomendaciones que mandan a leer una respuesta en inglés?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.764-06:00","updated":"2024-04-05T16:44:03.713-06:00"}
 ---
 
 # ¿Qué debemos hacer con las recomendaciones que mandan a leer una respuesta en inglés?
