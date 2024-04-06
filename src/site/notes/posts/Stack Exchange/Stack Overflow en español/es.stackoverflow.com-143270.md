@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-143270.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-143270/","title":"Capturar datos en Spreadsheet usando button onclick y direccionar a otra pagina con button onclick \"Appscript\"","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.727-06:00","updated":"2024-04-05T16:43:53.124-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-143270.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-143270/","title":"Capturar datos en Spreadsheet usando button onclick y direccionar a otra pagina con button onclick \"Appscript\"","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.727-06:00","updated":"2024-04-05T16:43:53.124-06:00"}
 ---
 
 # Capturar datos en Spreadsheet usando button onclick y direccionar a otra pagina con button onclick "Appscript"
