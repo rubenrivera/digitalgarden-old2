@@ -1,13 +1,80 @@
 const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
 const fs = require("fs");
 
+/**
+ * Checkbox mark (character inside square brackets)
+ * @typedef {string} checkboxMark
+ */
+/**
+ * Checked status of a checkbox, true = checked, false = unchecked.
+ * @typedef {boolean} checkboxStatus
+ */
+/**
+ * Checkbox specification
+ * @typedef {Array.<checkboxMark,checkboxStatus>} checkboxSpec
+ */
+
+/**
+ * Alternate checkbox checked values
+ * Checkbox marks taken from the Kepano's Minimal Theme for Obsidian
+ * @type {checkboxSpec[]}
+ */
+const values = [
+  // [' ', false],
+  // ['\u00A0', false],// non-breaking space
+  // ['x', true],
+  ['/', true],
+  ['-', true],
+  ['>', true],
+  ['<', true],
+  ['?', true],
+  ['!', true],
+  ['*', true],
+  ['"', true],
+  ['i', true],
+  ['l', true],
+  ['b', true],
+  ['S', true],
+  ['I', true],
+  ['p', true],
+  ['c', true],
+  ['f', true],
+  ['k', true],
+  ['w', true],
+  ['u', true],
+  ['d', true],
+];
 function userMarkdownSetup(md) {
   // The md parameter stands for the markdown-it instance used throughout the site generator.
   // Feel free to add any plugin you want here instead of /.eleventy.js
   const altCheckbox = require('./alt-markdown-it-task-checkbox.js');
-  altCheckbox(md);
+  const options = {
+		disabled: true,
+		divWrap: true,
+		divClass: 'checkbox',
+		idPrefix: 'cbx_',
+		ulClass: 'task-list',
+		liClass: 'task-list-item',
+    altCheckboxes: {
+      regex: testRegEx(values),
+      values: values
+    }
+	};
+  altCheckbox(md, options);
   
 }
+/**
+ * @param {string[][]} values Pair of checked marks and status (true = checked, false = unchecked)
+ */
+function testRegEx(values){
+  const str = values.map(e =>
+    ['/','-','?','*','+','^','.','$','^']
+    .includes(e[0]) ? '\\' + e[0] : e[0])
+    .join('');
+  const regex = new RegExp(`^\\\[([${str}])\\\][ \u00A0]`);
+  return regex;
+}
+
 function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.
   // Feel free to add any plugin you want here instead of /.eleventy.js

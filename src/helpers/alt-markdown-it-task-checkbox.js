@@ -3,27 +3,36 @@
 // https://github.com/blog/1375-task-lists-in-gfm-issues-pulls-comments
 // https://github.com/blog/1825-task-lists-in-all-markdown-documents
 
-module.exports = function(md, options) {
+
+module.exports = function (md, options) {
+
 	var defaults;
 	defaults = {
-	  disabled: true,
-	  divWrap: false,
-	  divClass: 'checkbox',
-	  idPrefix: 'cbx_',
-	  ulClass: 'task-list',
-	  liClass: 'task-list-item'
+		disabled: true,
+		divWrap: false,
+		divClass: 'checkbox',
+		idPrefix: 'cbx_',
+		ulClass: 'task-list',
+		liClass: 'task-list-item'
 	};
 	options = Object.assign({}, defaults, options);
-	md.core.ruler.after('inline', 'github-task-lists', function(state) {
+	//console.log(options.altCheckboxes);
+	md.core.ruler.after('inline', 'github-task-lists', function (state) {
 		var tokens = state.tokens;
 		var lastId = 0;
 		for (var i = 2; i < tokens.length; i++) {
 
-			if (isTodoItem(tokens, i)) {
+			if (isTodoItem(tokens, i, options)) {
 				todoify(tokens[i], lastId, options, state.Token);
+				const regex = options.altCheckboxes.regex;
+				const value = tokens[i].content.match(regex)[1]
+				console.log(i, value, tokens[i].content);
 				lastId += 1;
-				attrSet(tokens[i-2], 'class', options.liClass);
-				attrSet(tokens[parentToken(tokens, i-2)], 'class', options.ulClass);
+				attrSet(tokens[i - 2], 'class', options.liClass);
+				attrSet(tokens[i - 2], 'data-task', value);								
+				attrSet(tokens[parentToken(tokens, i - 2)], 'class', options.ulClass);
+				console.log(i - 2, tokens[i - 2])
+				
 			}
 		}
 	});
@@ -40,6 +49,7 @@ function attrSet(token, name, value) {
 	}
 }
 
+
 function parentToken(tokens, index) {
 	var targetLevel = tokens[index].level - 1;
 	for (var i = index - 1; i >= 0; i--) {
@@ -50,11 +60,11 @@ function parentToken(tokens, index) {
 	return -1;
 }
 
-function isTodoItem(tokens, index) {
+function isTodoItem(tokens, index, options) {
 	return isInline(tokens[index]) &&
-	       isParagraph(tokens[index - 1]) &&
-	       isListItem(tokens[index - 2]) &&
-	       startsWithTodoMarkdown(tokens[index]);
+		isParagraph(tokens[index - 1]) &&
+		isListItem(tokens[index - 2]) &&
+		startsWithTodoMarkdown(tokens[index], options.altCheckboxes.regex);
 }
 
 function todoify(token, lastId, options, TokenConstructor) {
@@ -75,14 +85,21 @@ function todoify(token, lastId, options, TokenConstructor) {
 function makeCheckbox(token, id, options, TokenConstructor) {
 	var checkbox = new TokenConstructor('checkbox_input', 'input', 0);
 	checkbox.attrs = [["type", "checkbox"], ["id", id]];
-	var checked = /^\[[xX]\][ \u00A0]/.test(token.content); // if token.content starts with '[x] ' or '[X] '
+	// if token.content starts with '[x] ' or '[X] '
+	const value = token.content.slice(1,2);
+	const spec = options.altCheckboxes.values.find(arr => arr[0] === value);
+	//console.log(token.content, ' --> ', value, spec);
+	
+	var checked = spec[1]; 
 	if (checked === true) {
-	  checkbox.attrs.push(["checked", "true"]);
-	}
-	if (options.disabled === true) {
-	  checkbox.attrs.push(["disabled", "true"]);
+		checkbox.attrs.push(["checked", "true"]);
+		checkbox.attrs.push(["data-task", value]);
 	}
 	
+	if (options.disabled === true) {
+		checkbox.attrs.push(["disabled", "true"]);
+	}
+	console.log(checkbox);
 	return checkbox;
 }
 
@@ -114,9 +131,9 @@ function isInline(token) { return token.type === 'inline'; }
 function isParagraph(token) { return token.type === 'paragraph_open'; }
 function isListItem(token) { return token.type === 'list_item_open'; }
 
-function startsWithTodoMarkdown(token) {
+function startsWithTodoMarkdown(token, regex) {
 	// The leading whitespace in a list item (token.content) is already trimmed off by markdown-it.
 	// The regex below checks for '[ ] ' or '[x] ' or '[X] ' at the start of the string token.content,
 	// where the space is either a normal space or a non-breaking space (character 160 = \u00A0).
-	return /^\[[xX \u00A0]\][ \u00A0]/.test(token.content);
+	return regex.test(token.content);
 }
