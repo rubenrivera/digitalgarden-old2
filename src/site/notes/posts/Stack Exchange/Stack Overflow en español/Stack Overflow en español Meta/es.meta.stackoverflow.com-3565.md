@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3565.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3565/","title":"La propuesta del nuevo código de conducta empieza con un problema de congruencia","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.729-06:00","updated":"2024-04-05T16:44:03.514-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3565.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3565/","title":"La propuesta del nuevo código de conducta empieza con un problema de congruencia","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.729-06:00","updated":"2024-04-05T16:44:03.514-06:00"}
 ---
 
 # La propuesta del nuevo código de conducta empieza con un problema de congruencia
