@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2406.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2406/","title":"¿Cuanto tiempo es el mínimo que se requiere que dedique un moderador electo para que ejerza sus superpoderes?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.373-06:00","updated":"2024-04-05T16:44:01.773-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2406.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2406/","title":"¿Cuanto tiempo es el mínimo que se requiere que dedique un moderador electo para que ejerza sus superpoderes?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.373-06:00","updated":"2024-04-05T16:44:01.773-06:00"}
 ---
 
 # ¿Cuanto tiempo es el mínimo que se requiere que dedique un moderador electo para que ejerza sus superpoderes?
