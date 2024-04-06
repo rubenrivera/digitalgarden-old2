@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2504.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2504/","title":"Etiquetas de versiones de Android","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.420-06:00","updated":"2024-04-05T16:44:01.876-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2504.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2504/","title":"Etiquetas de versiones de Android","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.420-06:00","updated":"2024-04-05T16:44:01.876-06:00"}
 ---
 
 # Etiquetas de versiones de Android
