@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2819.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2819/","title":"¿Qué hacer cuando me encuentro una solución en comentarios y el OP responde su propia pregunta pero no la marca como aceptada?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.631-06:00","updated":"2024-04-05T16:44:02.228-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2819.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2819/","title":"¿Qué hacer cuando me encuentro una solución en comentarios y el OP responde su propia pregunta pero no la marca como aceptada?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.631-06:00","updated":"2024-04-05T16:44:02.228-06:00"}
 ---
 
 # ¿Qué hacer cuando me encuentro una solución en comentarios y el OP responde su propia pregunta pero no la marca como aceptada?
