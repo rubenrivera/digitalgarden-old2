@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3354.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3354/","title":"Imágenes para Anuncios Reducidos","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.374-06:00","updated":"2024-04-05T16:44:02.852-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3354.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3354/","title":"Imágenes para Anuncios Reducidos","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.374-06:00","updated":"2024-04-05T16:44:02.852-06:00"}
 ---
 
 # Imágenes para Anuncios Reducidos
