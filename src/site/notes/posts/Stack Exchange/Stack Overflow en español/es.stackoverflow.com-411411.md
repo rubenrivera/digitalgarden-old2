@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-411411.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-411411/","title":"Por que no me funciona el DriveApp.searchFiles cuando le paso la query en una variable pero si que funciona si le paso un string?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.355-06:00","updated":"2024-04-05T16:43:56.963-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-411411.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-411411/","title":"Por que no me funciona el DriveApp.searchFiles cuando le paso la query en una variable pero si que funciona si le paso un string?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.355-06:00","updated":"2024-04-05T16:43:56.963-06:00"}
 ---
 
 # Por que no me funciona el DriveApp.searchFiles cuando le paso la query en una variable pero si que funciona si le paso un string?
