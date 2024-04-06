@@ -8,9 +8,9 @@
 | --------------------------------------------------------------------------- | ------------------------------------- | ----------- |
 | [[labs/alt-checkboxes/alt-checkboxes-overview\|alt-checkboxes-overview]] | Casillas de Verificación Alternativas | \-          |
 | [[labs/authentication/discord\|discord]]                                 | Proveedor de OAuth: Discord           |             |
-| [[labs/authentication/stackoverflow\|stackoverflow]]                     | Proveedor de OAuth: Stack Oveflow     |             |
 | [[labs/authentication/github\|github]]                                   | Proveedor de OAuth: GitHub            |             |
-| [[labs/cookies-policy/cookies-policy\|cookies-policy]]                   | Mostrar aviso de política de cookies  |             |
+| [[labs/authentication/stackoverflow\|stackoverflow]]                     | Proveedor de OAuth: Stack Oveflow     |             |
 | [[labs/eleventy-serverless/eleventy-serverless\|eleventy-serverless]]    | Eleventy Serverless                   |             |
+| [[labs/cookies-policy/cookies-policy\|cookies-policy]]                   | Mostrar aviso de política de cookies  |             |
 
 { .block-language-dataview}
