@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-4243.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-4243/","title":"¿Está roomba activo en Stack Overflow en español?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.595-06:00","updated":"2024-04-05T16:44:04.165-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-4243.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-4243/","title":"¿Está roomba activo en Stack Overflow en español?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.595-06:00","updated":"2024-04-05T16:44:04.165-06:00"}
 ---
 
 # ¿Está roomba activo en Stack Overflow en español?
