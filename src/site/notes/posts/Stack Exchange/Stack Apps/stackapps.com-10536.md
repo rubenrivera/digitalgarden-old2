@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Apps/stackapps.com-10536.md","permalink":"/publicaciones-externas/stack-exchange/stack-apps/stackapps-com-10536/","title":"PLACEHOLDER - Obsidian Digital Garden plus Eleventy Serverless OAuth demo","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:20:11.702-06:00","updated":"2024-04-05T16:43:26.611-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Apps/stackapps.com-10536.md","permalink":"/publicaciones-externas/stack-exchange/stack-apps/stackapps-com-10536/","title":"PLACEHOLDER - Obsidian Digital Garden plus Eleventy Serverless OAuth demo","hide":true,"noteIcon":"default","created":"2024-04-03T12:20:11.702-06:00","updated":"2024-04-05T16:43:26.611-06:00"}
 ---
 
 # PLACEHOLDER - Obsidian Digital Garden plus Eleventy Serverless OAuth demo
