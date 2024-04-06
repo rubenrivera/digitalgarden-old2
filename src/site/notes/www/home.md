@@ -1,9 +1,9 @@
 ---
-{"dg-publish":true,"dg-path":"home.md","permalink":"/home/","title":"Inicio","tags":["www","gardenEntry"],"noteIcon":"1","created":"2024-03-15T13:37:19.140-06:00","updated":"2024-04-04T18:44:26.291-06:00"}
+{"dg-publish":true,"dg-path":"home.md","permalink":"/home/","title":"Inicio","hide":true,"tags":["www","gardenEntry"],"noteIcon":"1","created":"2024-03-15T13:37:19.140-06:00","updated":"2024-04-06T13:21:24.950-06:00"}
 ---
 
 # Bienvenido
-Yo soy [[seedbox/Rubén\|Rubén]] y este es mi [[seedbox/202404041216\|jardín digital]]. Puedes ver en lo que esté trabajando más recientemente en [[www/now\|Ahora]].
+Yo soy [[Rubén\|Rubén]] y este es mi [[seedbox/202404041216\|jardín digital]]. Puedes ver en lo que esté trabajando más recientemente en [[www/now\|Ahora]].
 
 Algunas páginas incluyen [[seedbox/202404041354\|hogares de fuego]]. Estos son espacios de conversación. En algunos sitios web le llaman "Comentarios".
 ## Relacionado
