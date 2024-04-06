@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-134420.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-134420/","title":"como decodificar este texto en JavaScript (Hola, u00bfen quu00e9 puedo ayudarte?)","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.506-06:00","updated":"2024-04-05T16:43:52.794-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-134420.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-134420/","title":"como decodificar este texto en JavaScript (Hola, u00bfen quu00e9 puedo ayudarte?)","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.506-06:00","updated":"2024-04-05T16:43:52.794-06:00"}
 ---
 
 # como decodificar este texto en JavaScript (Hola, u00bfen quu00e9 puedo ayudarte?)
