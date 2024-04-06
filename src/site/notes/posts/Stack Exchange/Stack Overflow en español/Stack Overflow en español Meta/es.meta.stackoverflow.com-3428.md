@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3428.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3428/","title":"¿Es válido darle un voto positivo a respuestas que ya fueron aceptadas?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.511-06:00","updated":"2024-04-05T16:44:03.115-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3428.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3428/","title":"¿Es válido darle un voto positivo a respuestas que ya fueron aceptadas?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.511-06:00","updated":"2024-04-05T16:44:03.115-06:00"}
 ---
 
 # ¿Es válido darle un voto positivo a respuestas que ya fueron aceptadas?
