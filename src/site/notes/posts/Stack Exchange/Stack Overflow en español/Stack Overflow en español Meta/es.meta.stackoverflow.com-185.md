@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-185.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-185/","title":"Si tengo algo nuevo qué preguntar ¿debo preguntarlo en ambos sitios?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.763-06:00","updated":"2024-04-05T16:43:58.329-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-185.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-185/","title":"Si tengo algo nuevo qué preguntar ¿debo preguntarlo en ambos sitios?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.763-06:00","updated":"2024-04-05T16:43:58.329-06:00"}
 ---
 
 # Si tengo algo nuevo qué preguntar ¿debo preguntarlo en ambos sitios?
