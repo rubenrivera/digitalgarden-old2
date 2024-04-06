@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Apps/stackapps.com-9719.md","permalink":"/publicaciones-externas/stack-exchange/stack-apps/stackapps-com-9719/","title":"StackScraper - export questions as JSON or HTML","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:20:11.701-06:00","updated":"2024-04-05T16:43:26.615-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Apps/stackapps.com-9719.md","permalink":"/publicaciones-externas/stack-exchange/stack-apps/stackapps-com-9719/","title":"StackScraper - export questions as JSON or HTML","hide":true,"noteIcon":"default","created":"2024-04-03T12:20:11.701-06:00","updated":"2024-04-05T16:43:26.615-06:00"}
 ---
 
 # StackScraper - export questions as JSON or HTML
