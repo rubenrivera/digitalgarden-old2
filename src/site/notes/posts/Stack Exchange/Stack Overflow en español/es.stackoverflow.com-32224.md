@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-32224.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-32224/","title":"¿Cómo obtener el valor de una celda mediante una concatenación de fila y columna en una hoja de calculo de Google?","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.626-06:00","updated":"2024-04-05T16:43:48.711-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-32224.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-32224/","title":"¿Cómo obtener el valor de una celda mediante una concatenación de fila y columna en una hoja de calculo de Google?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.626-06:00","updated":"2024-04-05T16:43:48.711-06:00"}
 ---
 
 # ¿Cómo obtener el valor de una celda mediante una concatenación de fila y columna en una hoja de calculo de Google?
