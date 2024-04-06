@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-55106.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-55106/","title":"Cómo ejecutar codigo para varias celdas de Excel a la vez","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.353-06:00","updated":"2024-04-05T16:43:49.513-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-55106.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-55106/","title":"Cómo ejecutar codigo para varias celdas de Excel a la vez","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.353-06:00","updated":"2024-04-05T16:43:49.513-06:00"}
 ---
 
 # Cómo ejecutar codigo para varias celdas de Excel a la vez
