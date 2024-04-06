@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-236377.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-236377/","title":"Tengo script que funciona perfecto excepto por el adjunto (attachments) que no se envía","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.627-06:00","updated":"2024-04-05T16:43:54.762-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-236377.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-236377/","title":"Tengo script que funciona perfecto excepto por el adjunto (attachments) que no se envía","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.627-06:00","updated":"2024-04-05T16:43:54.762-06:00"}
 ---
 
 # Tengo script que funciona perfecto excepto por el adjunto (attachments) que no se envía
