@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-448944.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-448944/","title":"Cómo dar formato de Hipervínculo a cada una de las URLS indicadas en una celda, separadas por comas y sin espacios (URL1,URL2,URL3...)","hide":true,"noteIcon":"\"0\"","created":"2024-04-03T12:49:10.507-06:00","updated":"2024-04-05T16:43:57.325-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-448944.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-448944/","title":"Cómo dar formato de Hipervínculo a cada una de las URLS indicadas en una celda, separadas por comas y sin espacios (URL1,URL2,URL3...)","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.507-06:00","updated":"2024-04-05T16:43:57.325-06:00"}
 ---
 
 # Cómo dar formato de Hipervínculo a cada una de las URLS indicadas en una celda, separadas por comas y sin espacios (URL1,URL2,URL3...)
