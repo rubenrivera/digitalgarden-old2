@@ -1,7 +1,20 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-240175.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-240175/","title":"No suma sino que concatena los datos","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.728-06:00","updated":"2024-04-05T16:43:54.919-06:00"}
+dg-publish: true
+dg-hide: true
+title: No suma sino que concatena los datos
+Site: Stack Overflow en español
+Stack Exchange Post ID: 240175
+Stack Exchange Type: Answer
+Stack Exchange Post Created: 22/02/19 14:19
+Stack Exchange Post Last Edit: 23/02/19 15:19
+Stack Exchange Edited By: 
+Score: 1
+Favorites: 
+Views: 7815
+Accepted: 
+CW: 
+Closed: 
 ---
-
 # No suma sino que concatena los datos
 
 # Respuesta corta
@@ -58,7 +71,7 @@ En Google Apps Script, el método getValue de Class Range del Servicio de Hoja d
 - una cadena vacía (`""`) como valor de las celdas vacías 
 - un número como valor de las celdas que tienen números
 - un objeto fecha como valor de celdas que tienen números con formato de fecha, hora, duración, fecha-hora (internamente la hoja de cálculo de Google maneja estos datos como números seriales)
-- una cadena para celdas que tienen valores tipo texto y mensajes de error (!#N/A, !#REF, etc.)
+- una cadena para celdas que tienen valores tipo texto y mensajes de error (!\#N/A,  !\#REF, etc.)
 - un booleano para celdas que tienen valores booleanos (`VERDADERO`, `FALSO`)
 
 Por otro lado JavaScript usa símbolo el `+` tanto como `operador suma` como `operador concatenar`. Si el primer operando es número, trata de convertir el segundo operando a número, si no puede, concatena. Si el primero operando es una cadena, lo concatena con el segundo operando.
