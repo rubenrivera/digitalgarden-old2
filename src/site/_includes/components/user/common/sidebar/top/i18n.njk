@@ -1,11 +1,11 @@
 
 <ul>
-    {% for item in i18n-navigation[page.lang] %}
+    {% for item in i18nNavigation[page.lang] %}
     <li>
     <a
         href="{{ item.url }}"
         {{
-        i18n-helpers.getLinkActiveState(item.url,
+        i18nHelpers.getLinkActiveState(item.url,
         page.url)
         |
         safe
