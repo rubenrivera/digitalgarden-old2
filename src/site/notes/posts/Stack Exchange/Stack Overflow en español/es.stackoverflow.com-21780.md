@@ -1,14 +1,27 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-21780.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-21780/","title":"Fórmula para separar valores de una columna","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.626-06:00","updated":"2024-04-05T16:43:48.661-06:00"}
+dg-publish: true
+dg-hide: true
+title: Fórmula para separar valores de una columna
+Site: Stack Overflow en español
+Stack Exchange Post ID: 21780
+Stack Exchange Type: Answer
+Stack Exchange Post Created: 26/08/16 16:01
+Stack Exchange Post Last Edit: 23/05/17 12:39
+Stack Exchange Edited By: Comunidad (-1)
+Score: 1
+Favorites: 
+Views: 918
+Accepted: Accepted
+CW: 
+Closed: 
 ---
-
 # Fórmula para separar valores de una columna
 
-#Respuesta corta
+# Respuesta corta
 
 [REGEXEXTRACT](https://support.google.com/docs/answer/3098244?hl=es) con una expresión regular calculada
 
-#Ejemplo
+# Ejemplo
 Asumamos que los valores a separar están en A1:A3 y usan una coma como separador. La fórmula a utilizar sería:
 
     =ArrayFormula(
@@ -48,7 +61,7 @@ Para facilitar el mantenimiento, se puede usar la característica de [asignació
        )
      )
 
-#Referencias
+# Referencias
 
 - [Respuesta](https://stackoverflow.com/a/26138109/1595451) por [AdamL](https://stackoverflow.com/users/1373663/adaml) a [ARRAYFORMULA() does not work with SPLIT()](https://stackoverflow.com/q/26137115/1595451) en Stack Overflow (en inglés).
 - [Split a column of strings with a single formula returning an array](https://webapps.stackexchange.com/q/88517/88163) en Stack Exchange Web Applications (en inglés)
