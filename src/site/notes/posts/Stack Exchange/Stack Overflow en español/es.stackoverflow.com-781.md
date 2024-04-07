@@ -1,14 +1,27 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-781.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-781/","title":"Cómo leer valores de hora correctamente en una hoja de cálculo de Google","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.416-06:00","updated":"2024-04-05T16:43:48.325-06:00"}
+dg-publish: true
+dg-hide: true
+title: Cómo leer valores de hora correctamente en una hoja de cálculo de Google
+Site: Stack Overflow en español
+Stack Exchange Post ID: 781
+Stack Exchange Type: Answer
+Stack Exchange Post Created: 09/12/15 6:46
+Stack Exchange Post Last Edit: 23/05/17 12:39
+Stack Exchange Edited By: César (100), Comunidad (-1)
+Score: 4
+Favorites: 
+Views: 2409
+Accepted: Accepted
+CW: 
+Closed: 
 ---
-
 # Cómo leer valores de hora correctamente en una hoja de cálculo de Google
 
-#Panorama
+# Panorama
 
 La hoja de cálculo y Javascript manejan de forma diferente las fechas por lo que es necesario introducir una líneas de código adicionales. Se presenta una función principal y dos complementarias para obtener segundos, minutos u horas a partir de una fecha.
 
-#Código
+# Código
 
 Modificaciones a la función presentada en la pregunta:
 
@@ -63,7 +76,7 @@ Ejemplo de uso para registrar las horas de la celda `A1`.
     var range = SpreadsheetApp.getActiveSheet().getRange('A1');
     Logger.log(getValueAsHours(range));
 
-#Explicación
+# Explicación
 
 De la [respuesta](https://stackoverflow.com/a/17716798/1595451) de [Sergei insas](https://stackoverflow.com/users/1368381/serge-insas) del 2013-07-18 15:36:28Z
 
@@ -71,7 +84,7 @@ Las hojas de cálculo usan como fecha de referencia `12/30/1899` mientras que Ja
 
 En este caso no se desea saber la fecha real de algo, en su lugar se desea un valor absoluto de horas, por ejemplo, una duración, así que es necesario quitar el desfasamiento de 25,568 días. Esto es realiza usando el método `getTime()` el cual da como resultado milisegundos contados desde la fecha de referencia de Javascript, la única cosa que sabes es el valor en milisegundos de la fecha de la hoja de cálculo de referencia y restar este valor de la objeto de fecha actual. Luego un poco de matemáticas para obtener horas en lugar milisegundos y terminamos.
 
-#Comentarios
+# Comentarios
 
 El Issue 402: Get literal string from a spreadsheet range se mencionó en la respuesta de Eric, pero esta fue [marcado como arreglado](https://code.google.com/p/google-apps-script-issues/issues/detail?id=402#c26) hace 4 días con la observación de que la documentación está por ser publicada. Se resolvió agregando range.getDisplayValue y range.getDisplayValues, sin embargo, esto podría no ser útil en el caso de que no se desee modificar el formato en el que se muestra un dato del tipo fecha.
 
