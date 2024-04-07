@@ -1,10 +1,23 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3133.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3133/","title":"¿Qué hacemos con los hilos de lista de cosas sobre traducciones?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.729-06:00","updated":"2024-04-05T16:44:02.362-06:00"}
+dg-publish: true
+dg-hide: true
+title: ¿Qué hacemos con los hilos de lista de cosas sobre traducciones?
+Site: Stack Overflow Meta en español
+Stack Exchange Post ID: 3133
+Stack Exchange Type: Question
+Stack Exchange Post Created: 07/02/18 16:17
+Stack Exchange Post Last Edit: 07/02/18 17:27
+Stack Exchange Edited By: 
+Score: -2
+Favorites: 
+Views: 84
+Answers: 3
+CW: 
+Closed: 
 ---
-
 # ¿Qué hacemos con los hilos de lista de cosas sobre traducciones?
 
-#Tl;Dr
+# Tl;Dr
 Favor de votar en las respuestas a esta pregunta por mantener abiertos o cerrar
 
 - https://es.meta.stackoverflow.com/q/40/65
