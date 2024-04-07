@@ -1,16 +1,29 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-130.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-130/","title":"Paremos el acaparamiento de Puntos","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.762-06:00","updated":"2024-04-05T16:43:58.257-06:00"}
+dg-publish: true
+dg-hide: true
+title: Paremos el acaparamiento de Puntos
+Site: Stack Overflow Meta en español
+Stack Exchange Post ID: 130
+Stack Exchange Type: Answer
+Stack Exchange Post Created: 03/12/15 13:54
+Stack Exchange Post Last Edit: 13/04/17 13:00
+Stack Exchange Edited By: Comunidad (-1)
+Score: 3
+Favorites: 
+Views: 467
+Accepted: 
+CW: 
+Closed: 
 ---
-
 # Paremos el acaparamiento de Puntos
 
-#Respuesta corta
+# Respuesta corta
 
 Coincido con varios de los enunciados de la pregunta y con el interés de procurar aprovechar la fase beta privada para construir el mejor sitio posible en español para atraer expertos en programación. No concido con el discurso de la pregunta pero me parece importante porque trata de una primera impresión de la beta privada a la que debería prestarse atención.
 
 Me quedo con la propuesta de que **las traducciones se marquen como wiki de comunidad**.
 
-#Respuesta larga
+# Respuesta larga
 
 
 ##De acuerdo
