@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"Taller/i18n/en/i18n-demo.md","dg-permalink":"en/internationalization/","permalink":"/en/internationalization/","title":"Internationalization","noteIcon":"default","created":"2024-04-06T14:21:07.062-06:00","updated":"2024-04-06T21:36:31.981-06:00"}
+{"dg-publish":true,"dg-path":"Taller/i18n/en/i18n-demo.md","dg-permalink":"en/internationalization/","permalink":"/en/internationalization/","title":"Internationalization","noteIcon":"default","created":"2024-04-06T14:21:07.062-06:00","updated":"2024-04-07T13:45:34.831-06:00"}
 ---
 
 # Internationalization
