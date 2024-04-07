@@ -24,7 +24,23 @@
     background-color: #111;
   }
 </style>
-<nav id="horizatonal-navbar">    
+<nav id="horizatonal-navbar">
+  <ul>
+      {% for item in i18nNavigation[page.lang] %}
+      <li>
+      <a
+          href="{{ item.url }}"
+          {{
+          i18nHelpers.getLinkActiveState(item.url,
+          page.url)
+          |
+          safe
+          }}
+          >{{ item.text }}</a
+      >
+      </li>
+      {% endfor %}
+  </ul>    
   <ul> 
     <li>
       <a href="https://rubenrivera.mx">Rubén Rivera</a>

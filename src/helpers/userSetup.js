@@ -79,7 +79,13 @@ function testRegEx(values){
 function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.
   // Feel free to add any plugin you want here instead of /.eleventy.js
-  // Render on first-request
+ 
+  if(process.env.ELEVENTY_ENV === 'dev'){
+    eleventyConfig.ignores.add("src/site/notes/lists");
+    eleventyConfig.ignores.add("src/site/notes/posts");
+    eleventyConfig.ignores.add("src/site/notes/references");
+    eleventyConfig.ignores.add("src/site/notes/seedbox");    
+  }
 
   /**
    * Internationalization (I18n)
@@ -101,6 +107,8 @@ function userEleventySetup(eleventyConfig) {
 		errorMode: "allow-fallback", // only throw an error when the content is missing at both /en/slug and /slug
 		// errorMode: "never", // don’t throw errors for missing content
   });
+
+  // Render on first-request
 
   /**
    * demo-eleventy-severless
