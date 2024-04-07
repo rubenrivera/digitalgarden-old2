@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2226.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2226/","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.729-06:00","updated":"2024-04-05T16:44:01.377-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2226.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2226/","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.729-06:00","updated":"2024-04-06T20:22:01.299-06:00"}
 ---
 
-# #VALOR!
+# \#VALOR!
 
 He observado con más o menos palabras la frase "así se hace en Stack Overflow en inglés" como reacción a votos negativos o votos de cierre y luego respuestas como "nosotros no somos iguales" y luego un ir y venir de argumentos y contra-argumentos.
 
