@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"home.md","permalink":"/home/","title":"Inicio","hide":true,"tags":["www","gardenEntry","gardenEntry","gardenEntry"],"noteIcon":"1","created":"2024-03-15T13:37:19.140-06:00","updated":"2024-04-06T13:21:24.950-06:00"}
+{"dg-publish":true,"dg-path":"home.md","permalink":"/home/","title":"Inicio","hide":true,"tags":["www","gardenEntry"],"noteIcon":"1","created":"2024-03-15T13:37:19.140-06:00","updated":"2024-04-06T13:21:24.950-06:00"}
 ---
 
 # Bienvenido
