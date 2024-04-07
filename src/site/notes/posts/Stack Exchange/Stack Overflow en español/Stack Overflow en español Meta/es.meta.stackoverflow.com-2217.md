@@ -1,7 +1,20 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-2217.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-2217/","title":"¿Cómo ven si usamos la etiqueta \"artículo\" para las publicaciones en meta que no son preguntas?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.729-06:00","updated":"2024-04-05T16:44:01.375-06:00"}
+dg-publish: true
+dg-hide: true
+title: ¿Cómo ven si usamos la etiqueta "artículo" para las publicaciones en meta que no son preguntas?
+Site: Stack Overflow Meta en español
+Stack Exchange Post ID: 2217
+Stack Exchange Type: Question
+Stack Exchange Post Created: 22/06/17 14:23
+Stack Exchange Post Last Edit: 24/06/17 20:25
+Stack Exchange Edited By: 
+Score: 3
+Favorites: 
+Views: 66
+Answers: 0
+CW: 
+Closed: 
 ---
-
 # ¿Cómo ven si usamos la etiqueta "artículo" para las publicaciones en meta que no son preguntas?
 
 # Propuesta
@@ -22,7 +35,7 @@ Hace no mucho tiempo los sitios de SE tenían un blog de la comunidad pero esta 
 
 Las preguntas en Meta con la [meta-tag:artículo] serían eximidas de usar el formato pregunta-respuesta del modelo de Stack Overflow pero deberán corresponder a la temática de Meta, por ejemplo, podría ser usada para traducciones de artículos de blog publicados originalmente en el blog de Stack Overflow en inglés.
 
-#Ejemplos de preguntas que no son preguntas
+# Ejemplos de preguntas que no son preguntas
 
 ## Del Gerente de la Comunidad y otros empleados de Stack Overflow
 
