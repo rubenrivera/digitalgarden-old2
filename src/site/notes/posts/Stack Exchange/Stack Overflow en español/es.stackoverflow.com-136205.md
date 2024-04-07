@@ -1,10 +1,23 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-136205.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-136205/","title":"¿Es correcto el uso del close tag (cerrar todas las etiquetas) en HTML?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.592-06:00","updated":"2024-04-05T16:43:52.933-06:00"}
+dg-publish: true
+dg-hide: true
+title: ¿Es correcto el uso del close tag (cerrar todas las etiquetas) en HTML?
+Site: Stack Overflow en español
+Stack Exchange Post ID: 136205
+Stack Exchange Type: Answer
+Stack Exchange Post Created: 04/02/18 23:50
+Stack Exchange Post Last Edit: 21/02/18 3:11
+Stack Exchange Edited By: 
+Score: 13
+Favorites: 
+Views: 2531
+Accepted: 
+CW: 
+Closed: 
 ---
-
 # ¿Es correcto el uso del close tag (cerrar todas las etiquetas) en HTML?
 
-#Respuesta corta
+# Respuesta corta
 
 HTML es el "estándar para la creación de páginas web". Este es flexible en cuando al cierre de las etiquetas, pero hay algunas variantes de este que no lo son como XHTML, que pueden tener otros requisitos que no están en HTML 4 / 5
 
