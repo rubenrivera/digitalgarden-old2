@@ -1,0 +1,9 @@
+{% set activePage = page.url %}
+
+<ul>
+  {% for item in navigation[page.lang] %}
+  <li>
+    <a href="{{ item.url }}">{{ item.text }}</a>
+  </li>
+  {% endfor %}      
+</ul>

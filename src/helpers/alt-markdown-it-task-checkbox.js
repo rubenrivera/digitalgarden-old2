@@ -26,12 +26,12 @@ module.exports = function (md, options) {
 				todoify(tokens[i], lastId, options, state.Token);
 				const regex = options.altCheckboxes.regex;
 				const value = tokens[i].content.match(regex)[1]
-				console.log(i, value, tokens[i].content);
+				//console.log(i, value, tokens[i].content);
 				lastId += 1;
 				attrSet(tokens[i - 2], 'class', options.liClass);
 				attrSet(tokens[i - 2], 'data-task', value);								
 				attrSet(tokens[parentToken(tokens, i - 2)], 'class', options.ulClass);
-				console.log(i - 2, tokens[i - 2])
+				//console.log(i - 2, tokens[i - 2])
 				
 			}
 		}
@@ -99,7 +99,7 @@ function makeCheckbox(token, id, options, TokenConstructor) {
 	if (options.disabled === true) {
 		checkbox.attrs.push(["disabled", "true"]);
 	}
-	console.log(checkbox);
+	//console.log(checkbox);
 	return checkbox;
 }
 
