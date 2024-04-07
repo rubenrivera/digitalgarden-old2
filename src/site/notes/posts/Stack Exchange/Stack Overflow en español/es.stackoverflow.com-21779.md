@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-21779.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-21779/","title":"Fórmula para separar valores de una columna","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.626-06:00","updated":"2024-04-05T16:43:48.657-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-21779.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-21779/","title":"Fórmula para separar valores de una columna","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.626-06:00","updated":"2024-04-06T20:22:14.929-06:00"}
 ---
 
 # Fórmula para separar valores de una columna
 
 La hoja de cálculo de Google cuenta con la función SPLIT para separar valores de una cadena pero no puede utilizarse usando como argumento un rango o matriz de 1 X n o n X 1, por ejemplo A1:A3 mediante ARRAYFORMULA.
 
-La fórmula siguiente da como resultado #VALOR
+La fórmula siguiente da como resultado \#VALOR
 
     =ARRAYFORMULA(SPLIT(A1:A3,",") 
 
