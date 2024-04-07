@@ -1,16 +1,29 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-407.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-407/","title":"¿Se debería mantener consistencia en las etiquetas con otros sitios de SE?","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.418-06:00","updated":"2024-04-05T16:43:58.689-06:00"}
+dg-publish: true
+dg-hide: true
+title: ¿Se debería mantener consistencia en las etiquetas con otros sitios de SE?
+Site: Stack Overflow Meta en español
+Stack Exchange Post ID: 407
+Stack Exchange Type: Answer
+Stack Exchange Post Created: 19/01/16 12:26
+Stack Exchange Post Last Edit: 13/04/17 13:00
+Stack Exchange Edited By: Comunidad (-1)
+Score: 0
+Favorites: 
+Views: 89
+Accepted: 
+CW: 
+Closed: 
 ---
-
 # ¿Se debería mantener consistencia en las etiquetas con otros sitios de SE?
 
-#Respuesta corta
+# Respuesta corta
 > ¿Se debería mantener consistencia en las etiquetas con otros sitios de
 > SE?
 
 Como aspiración, sí para las etiquetas icónicas, pero no para todas. Sin embargo, creo que debemos enfocarnos en los indicadores de la beta pública.
 
-#En breve
+# En breve
 
 Me parece que no deberíamos imponernos el hacer de forma exhaustiva (todas las etiquetas, todo el tiempo, en todos los sitios) ya que en SE las etiquetas son definidas por los usuarios de cada sitio y esto implica no sólo hacerlo del lado de SOes sino también en los otros sitios además de considerar otros factores. A lo cual me refería en la edición inicial de esta respuesta como "lineamientos folsonómicos".
 
@@ -28,13 +41,13 @@ Me parece que durante la beta pública debemos enfocarnos en:
 
 Y que lo relacionado con las etiquetas surja orgánicamente.
 
-#Explicación
+# Explicación
 ¿Realmente es necesario explicar lo anterior y ampliar? Yo creo que sí, van algunas ideas
 
 1. Cómo funcionan las etiquetas y los scripts relacionados con las mismas
 2. Auto borrado de preguntas que tendrían como consecuenta la eliminación de etiquetas.
 
-#Relacionado
+# Relacionado
 
 - https://es.stackoverflow.com/help/privileges
 - https://es.meta.stackoverflow.com/questions/408/cu%C3%A1les-son-las-etiquetas-relativas-a-nombres-de-productos
