@@ -1,4 +1,4 @@
-const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
+const { EleventyI18nPlugin, EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
 const fs = require("fs");
 
 /**
@@ -60,6 +60,7 @@ function userMarkdownSetup(md) {
       values: values
     }
 	};
+  // console.log(options.altCheckboxes.regex);
   altCheckbox(md, options);
   
 }
@@ -79,6 +80,27 @@ function userEleventySetup(eleventyConfig) {
   // The eleventyConfig parameter stands for the the config instantiated in /.eleventy.js.
   // Feel free to add any plugin you want here instead of /.eleventy.js
   // Render on first-request
+
+  /**
+   * Internationalization (I18n)
+   */
+  eleventyConfig.addPlugin(EleventyI18nPlugin, {
+    defaultLanguage: 'es', // Required
+
+    // Rename the default universal filter names
+		filters: {
+			// transform a URL with the current page’s locale code
+			url: "locale_url",
+
+			// find the other localized content for a specific input file
+			links: "locale_links",
+		},
+
+		// When to throw errors for missing localized content files
+		// errorMode: "strict", // throw an error if content is missing at /en/slug
+		errorMode: "allow-fallback", // only throw an error when the content is missing at both /en/slug and /slug
+		// errorMode: "never", // don’t throw errors for missing content
+  });
 
   /**
    * demo-eleventy-severless

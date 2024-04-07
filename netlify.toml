@@ -48,3 +48,17 @@ force = true
 
   [redirects.conditions]
   Cookie = [ "_11ty_oauth_token" ]
+
+[[redirects]]
+from = "/es/*"
+to = "/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "/*"
+to = "/en/:splat"
+status = 302
+
+  [redirects.conditions]
+  Language = [ "en" ]

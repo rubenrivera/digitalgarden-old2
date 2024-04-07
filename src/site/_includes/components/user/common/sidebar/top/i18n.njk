@@ -1,0 +1,17 @@
+
+<ul>
+    {% for item in i18n-navigation[page.lang] %}
+    <li>
+    <a
+        href="{{ item.url }}"
+        {{
+        i18n-helpers.getLinkActiveState(item.url,
+        page.url)
+        |
+        safe
+        }}
+        >{{ item.text }}</a
+    >
+    </li>
+    {% endfor %}
+</ul>      

@@ -13,12 +13,12 @@ _site/
 **/.DS_Store
 # Depends on branch
 README.md
+# Local Development
+.env
+.eleventyignore
 # Eleventy Serverless
 netlify/functions/dynamic/*
 !netlify/functions/dynamic/index.js
-# Development
-.env
-.eleventyignore
 # demo-eleventy-serverless
 netlify/functions/serverless/*
 !netlify/functions/serverless/index.js

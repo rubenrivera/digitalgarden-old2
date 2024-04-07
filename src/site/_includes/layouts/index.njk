@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ meta.mainLanguage }}">
+<html lang="{{ page.lang or meta.mainLanguage }}" dir="{{ languages[page.lang].dir or 'ltr' }}">
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
