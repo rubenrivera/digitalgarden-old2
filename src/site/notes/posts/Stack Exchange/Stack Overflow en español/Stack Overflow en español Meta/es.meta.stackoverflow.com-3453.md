@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3453.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3453/","title":"Advertencias en preguntas potencialmente problemáticas","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.511-06:00","updated":"2024-04-05T16:44:03.141-06:00"}
+{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/Stack Overflow en español Meta/es.meta.stackoverflow.com-3453.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/stack-overflow-en-espanol-meta/es-meta-stackoverflow-com-3453/","title":"Advertencias en preguntas potencialmente problemáticas","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.511-06:00","updated":"2024-04-06T19:40:41.636-06:00"}
 ---
 
 # Advertencias en preguntas potencialmente problemáticas
 
-#Ayuda
+# Ayuda
 
 **Discusiones relacionadas**: 
 
