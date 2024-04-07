@@ -1,10 +1,23 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-5160.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-5160/","title":"Fórmula de matriz (arrayformula) para numeración jerárquica de entrada de usuario tabuladas","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.505-06:00","updated":"2024-04-05T16:43:48.408-06:00"}
+dg-publish: true
+dg-hide: true
+title: Fórmula de matriz (arrayformula) para numeración jerárquica de entrada de usuario tabuladas
+Site: Stack Overflow en español
+Stack Exchange Post ID: 5160
+Stack Exchange Type: Question
+Stack Exchange Post Created: 03/03/16 16:39
+Stack Exchange Post Last Edit: 04/03/16 1:32
+Stack Exchange Edited By: 
+Score: 0
+Favorites: 
+Views: 628
+Answers: 1
+CW: 
+Closed: 
 ---
-
 # Fórmula de matriz (arrayformula) para numeración jerárquica de entrada de usuario tabuladas
 
-#Resumen
+# Resumen
 En un segundo intento se optó por usar columnas auxiliares procurando que todas ellas usen fórmulas de matriz para que posteriormente dichas fórmulas sean anidadas. Se logró obtener el resultado esperado pero de proceder a anidar las fórmulas de las columnas auxiliares resultaría en una fórmula demasiado compleja.
 
 Por lo anterior agregué la etiqueta [tag:revisión-de-código]. En específico el trabajo por hacer sería 
@@ -17,7 +30,7 @@ Por lo anterior agregué la etiqueta [tag:revisión-de-código]. En específico 
 
 Al final se incluyen las fórmulas.
 
-#Escenario
+# Escenario
 
 Se requiere capturar una jerarquía de elementos en una hoja de cálculo de Google. Para ello, se están utilizando una columna para cada nivel como se muestra a continuación.
 
@@ -52,7 +65,7 @@ El resultado esperado es similar a lo siguiente:
 +---+----------------+-----------+-------------+-----------------+----------------------+
 </pre>
 
-#Esfuerzos previos
+# Esfuerzos previos
 ##Intento 1
 Se transformaron los datos de entrada en una tabla simple con la siguiente estructura
 
@@ -94,7 +107,7 @@ Si bien es una fórmula de matriz no cumple con el objetivo porque
 
 Al modificar los parámetros de entrada para que fueran devueltos múltiples valores, se encontró que COUNTIF no devuelve múltiples valores y el uso de otras alternativas no devuelven los resultados esperados.
 
-#Intento 2
+# Intento 2
 
 [![Cálculo de numeración jerárquica][1]][1]
 
