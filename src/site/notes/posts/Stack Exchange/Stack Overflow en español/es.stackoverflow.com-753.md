@@ -1,7 +1,20 @@
 ---
-{"dg-publish":true,"dg-path":"Publicaciones Externas/Stack Exchange/Stack Overflow en español/es.stackoverflow.com-753.md","permalink":"/publicaciones-externas/stack-exchange/stack-overflow-en-espanol/es-stackoverflow-com-753/","title":"Cómo adaptar evenBetterBuildUrls() de Mogsdad para importar respuestas a un formulario","hide":true,"noteIcon":"default","created":"2024-04-03T12:49:10.416-06:00","updated":"2024-04-05T16:43:48.314-06:00"}
+dg-publish: true
+dg-hide: true
+title: Cómo adaptar evenBetterBuildUrls() de Mogsdad para importar respuestas a un formulario
+Site: Stack Overflow en español
+Stack Exchange Post ID: 753
+Stack Exchange Type: Question
+Stack Exchange Post Created: 08/12/15 17:00
+Stack Exchange Post Last Edit: 23/05/17 12:39
+Stack Exchange Edited By: Comunidad (-1)
+Score: 6
+Favorites: 
+Views: 455
+Answers: 1
+CW: 
+Closed: 
 ---
-
 # Cómo adaptar evenBetterBuildUrls() de Mogsdad para importar respuestas a un formulario
 
 En https://stackoverflow.com/a/26395487/1595451 por [Mogsdad](https://stackoverflow.com/users/1677912/mogsdad) del 2014-11-26 01:27:15Z comparte el código de evenBetterBuildUrls(). Este tiene la finalidad de generar los URLs de prellenado de formularios de Google. Algunas cosas las he podido realizar pero en otras estoy atorado.
@@ -94,7 +107,7 @@ Sé que varían los parámetros de cada clase de tipo elemento de respuesta para
       }
     };
 
-#Referencias
+# Referencias
 
 ##Ejemplos de preguntas que podrían beneficiarse de esta adaptación
 
