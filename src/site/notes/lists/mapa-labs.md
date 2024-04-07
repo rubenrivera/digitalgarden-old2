@@ -7,13 +7,13 @@
 | Archivo                                                                     | Título                                | Descripción |
 | --------------------------------------------------------------------------- | ------------------------------------- | ----------- |
 | [[labs/alt-checkboxes/alt-checkboxes-overview\|alt-checkboxes-overview]] | Casillas de Verificación Alternativas | \-          |
-| [[labs/authentication/discord\|discord]]                                 | Proveedor de OAuth: Discord           |             |
-| [[labs/authentication/github\|github]]                                   | Proveedor de OAuth: GitHub            |             |
-| [[labs/authentication/stackoverflow\|stackoverflow]]                     | Proveedor de OAuth: Stack Oveflow     |             |
 | [[labs/cookies-policy/cookies-policy\|cookies-policy]]                   | Mostrar aviso de política de cookies  |             |
+| [[labs/authentication/github\|github]]                                   | Proveedor de OAuth: GitHub            |             |
+| [[labs/authentication/discord\|discord]]                                 | Proveedor de OAuth: Discord           |             |
+| [[labs/authentication/stackoverflow\|stackoverflow]]                     | Proveedor de OAuth: Stack Oveflow     |             |
 | [[labs/eleventy-serverless/eleventy-serverless\|eleventy-serverless]]    | Eleventy Serverless                   |             |
-| [[labs/i18n/i18n-overview\|i18n-overview]]                               | Internacionalización                  | \-          |
 | [[labs/i18n/en/i18n-demo\|i18n-demo]]                                    | Internationalization                  | \-          |
 | [[labs/i18n/es/i18n-demo\|i18n-demo]]                                    | Internacionalización                  | \-          |
+| [[labs/i18n/i18n-overview\|i18n-overview]]                               | Internacionalización                  | \-          |
 
 { .block-language-dataview}
