@@ -14,5 +14,8 @@
         {% if settings.dgEnableSearch === true%}
             {% include "components/searchButton.njk" %}
         {%endif%}
+        {% if settings.dgEnableLogin === true%}
+            {% include "components/loginButton.njk" %}
+        {%endif%}
     </div>
 {%endif%}

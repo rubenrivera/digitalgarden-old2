@@ -1,4 +1,8 @@
 const { EleventyI18nPlugin, EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
+// Translations
+const i18n = require('eleventy-plugin-i18n');
+const translations = require('../site/_data/i18n.js');
+
 const fs = require("fs");
 
 /**
@@ -91,7 +95,7 @@ function userEleventySetup(eleventyConfig) {
    * Internationalization (I18n)
    */
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: 'es', // Required
+    defaultLanguage: process.env.SITE_MAIN_LANGUAGE || 'en', // Required
 
     // Rename the default universal filter names
 		filters: {
@@ -107,6 +111,13 @@ function userEleventySetup(eleventyConfig) {
 		errorMode: "allow-fallback", // only throw an error when the content is missing at both /en/slug and /slug
 		// errorMode: "never", // don’t throw errors for missing content
   });
+
+eleventyConfig.addPlugin(i18n, { 
+  translations,
+  fallbackLocales: {
+    '*' : 'es'
+  }
+});
 
   // Render on first-request
 

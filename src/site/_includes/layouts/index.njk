@@ -20,6 +20,9 @@
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
+    {% if settings.dgEnableLogin === true %}
+      {%include "components/LoginContainer.njk"%}
+    {% endif %}
     <main class="content cm-s-obsidian {{contentClasses}}">
       <header>
       {% if settings.dgShowInlineTitle === true %}

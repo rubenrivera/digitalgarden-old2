@@ -1,9 +1,29 @@
-<link rel="alternate" hreflang="{{ page.lang }}" href="{{ meta.url }}{{ page.url }}" />
+<link
+    rel="alternate"
+    hreflang="{{ page.lang }}"
+    href="{{ meta.siteBaseUrl }}{{ page.url }}"
+/>
 
 {% for link in page.url | locale_links %}
 <link
     rel="alternate"
     hreflang="{{ link.lang }}"
-    href="{{ meta.url }}{{ link.url }}"
+    href="{{ meta.siteBaseUrl }}{{ link.url }}"
 />
 {% endfor %}
+
+<link
+    rel="alternate"
+    hreflang="x-default"
+    href="{{ meta.siteBaseUrl }}{{ page.url | locale_url('es') }}"
+/>
+
+<link rel="canonical" href="{{ meta.siteBaseUrl }}{{ page.url }}" />
+<meta
+    name="description"
+    content="{% if description %}
+{{ description }}
+{% else %}
+{{ userComputed.siteDescription }}
+{% endif %}"
+/>

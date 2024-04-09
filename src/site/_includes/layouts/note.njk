@@ -1,6 +1,8 @@
 ---
 permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
+{% set locale = page.lang or meta.mainLanguage %}
+{% set dir = i18nlanguages[page.lang].dir or 'ltr' %}
 <!DOCTYPE html>
 <html lang="{{ page.lang or meta.mainLanguage }}" dir="{{ i18nlanguages[page.lang].dir or 'ltr' }}">
   <head>
@@ -24,6 +26,16 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
+    {% endif %}
+    {# TODO: Make a PR to add login support into the GitHub template repository for 
+      Obsidian Digital Garden #}
+    {% if settings.dgEnableLogin === true %}
+      {%include "components/loginContainer.njk"%}
+    {% else %}
+      {# TODO: improve login for including search and login container with 
+        custom navigation #}
+      {%include "components/searchContainer.njk"%}
+      {%include "components/loginContainer.njk"%}
     {% endif %}
 
     <main class="content cm-s-obsidian {{contentClasses}}">

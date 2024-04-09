@@ -1,7 +1,10 @@
 // Put your computations here.
 
 function userComputed(data) {
-  return {};
+  return {    
+    siteDescription:
+      "Jardín Digital de Rubén: espacio digital para publicar notas.",    
+  };
 }
 
 exports.userComputed = userComputed;

@@ -1,0 +1,65 @@
+<style>
+  #bottom-horizontal-navbar {
+    top: calc(100vh - 50px);
+    left: 0;
+    right: 0;
+    bottom: 0;    
+  }
+  #bottom-horizontal-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+    width: 100%
+  }
+
+  #bottom-horizontal-navbar ul li {
+    float: left;
+  }
+
+  #bottom-horizontal-navbar ul li.lang-nav-item {
+    float: right;
+  }
+
+  #bottom-horizontal-navbar ul li a {
+    display: block;
+    text-align: center;
+    padding: 5px 7px;
+    text-decoration: none;
+  }
+  
+</style>
+<footer>
+  <nav id="bottom-horizontal-navbar" class="navbar">
+    <ul>
+        {% for item in i18nBottomNavigation[page.lang] %}
+        <li>
+          <a
+              href="{{ item.url }}"
+              {{
+              i18nHelpers.getLinkActiveState(item.url,
+              page.url)
+              |
+              safe
+              }}
+          >
+            {{ item.text }}
+          </a>
+        </li>
+        {% endfor %}
+        <li id="active-page-lang" class="lang-nav-item">
+        <a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">
+        {{ page.lang | upper }}
+        </a>
+      </li>
+
+      {% for link in page.url | locale_links %}
+      <li id="lang-{{ link.lang }}" class="lang-nav-item"> 
+        <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+        {{ link.lang | upper }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>    
+  </nav>
+</footer>
