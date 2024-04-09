@@ -34,7 +34,7 @@ function getPositions(trees) {
 }
 
 const noteLabels = {
-  default: { label: "Nota / Note", plural: "Notas / Notes", count: 0, icon: "default-note-icon" },
+  "default-note-icon": { label: "Nota / Note", plural: "Notas / Notes", count: 0, icon: "default-note-icon" },
   "tree-1": { label: "Plántula / Seedling", plural: "Plátulas / Seedlings", count: 0, icon: "tree-1" },
   "tree-2": { label: "Brote / Sprout", plural: "Brotes / Brote", count: 0, icon: "tree-2" },
   "tree-3": { label: "Árbol / Tree", plural: "Àrboles / Trees", count: 0, icon: "tree-3" },
@@ -58,7 +58,9 @@ function forestData(data) {
     let v = parseInt(n.data.noteIcon);
     let height = 2;
     if (!v) {
-      v = n.data.noteIcon;
+      v = n.data.noteIcon === 'default' 
+      ? 'default-note-icon'
+      : n.data.noteIcon;
     } else {
       height = v;
       v = `tree-${v}`;
