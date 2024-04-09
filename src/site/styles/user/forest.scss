@@ -1,61 +1,151 @@
-#forest-graph {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px;
-    flex-direction: column;
-    .forest-body {
-        display: inline-flex;
+body {
+    #forest-graph {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
         flex-direction: column;
-        transform: rotate(45deg);
-        margin: 60px;
-        align-items: flex-end;
-
-        @media (max-width: 575.99px) {
-            transform: rotate(45deg) scale(0.9);
-        }
-
-        .forest-row {
-            display: flex;
-            flex-direction: row;
+        .forest-body {
+            display: inline-flex;
+            flex-direction: column;
+            transform: rotate(45deg);
+            margin: 60px;
             align-items: flex-end;
 
-            a {
-                width: 25px;
-                height: 25px;
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                margin-top: -2px;
-                margin-left: -2px;
-
-                img {
-                    transform: rotate(-45deg);
-                }
+            @media (max-width: 575.99px) {
+                transform: rotate(45deg) scale(0.9);
             }
 
-            .plane {
-                cursor: inherit;
+            .forest-row {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+
+                a {
+                    width: 25px;
+                    height: 25px;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: -2px;
+                    margin-left: -2px;
+
+                    img {
+                        transform: rotate(-45deg);
+                    }
+                }
+
+                .plane {
+                    cursor: inherit;
+                }
+            }
+        }
+
+        .forest-legends {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            font-size: 0.8em;
+            color: var(--text-muted);
+
+            img {
+                height: 1.5em;
+                width: auto;
+                margin-right: 5px;
+            }
+        }
+    }
+    .cards {
+        table.dataview {
+            width: var(--table-width);
+        }
+        th,
+        td {
+            border: none !important;
+            flex-wrap: wrap;
+            gap: 5px;
+
+            a.tag {
+                padding: 3px !important;
+            }
+        }
+        table.dataview.table-view-table {
+            thead.table-view-thead {
+                display: none;
+
+                &::before {
+                    display: none;
+                }
+            }
+            tbody {
+                tr {
+                    position: relative;
+                    td {
+                        img.inset-cover {
+                            height: 70px;
+                            width: auto;
+                            position: absolute;
+                            top: 0px;
+                            right: 0px;
+                            padding: 0;
+                        }
+                    }
+                }
             }
         }
     }
 
-    .forest-legends {
-        margin-top: 10px;
-        display: flex;
-        gap: 10px;
-        width: 100%;
-        justify-content: center;
-        flex-wrap: wrap;
+    .cards-cover-no-border {
+        table.dataview.table-view-table {
+            tbody {
+                tr {
+                    td:first-child {
+                        width: 100%;
+                        img {
+                            padding: 0;
+                        }
+                    }
+                    // td:nth-child(2) {
+                    //     min-height: 70px;
+                    // }
 
-        font-size: 0.8em;
-        color: var(--text-muted);
+                    td {
+                        svg {
+                            width: 14px;
+                            height: auto;
+                        }
 
-        img {
-            height: 1.5em;
-            width: auto;
-            margin-right: 5px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                }
+            }
         }
+    }
+
+    .cards-title-hide-icons {
+        table.dataview.table-view-table {
+            tbody {
+                tr {
+                    td:nth-child(2),
+                    td:first-child {
+                        a::before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    code[class*="language-"],
+    pre[class*="language-"] {
+        text-shadow: unset;
     }
 }
