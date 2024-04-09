@@ -1,14 +1,14 @@
 ---
 permalink:
-  dynamic: "/labs/oauth/"
+  dynamic: "en/labs/eleventy-serverless-oauth/"
 ---
 {% if user %}
-<a href="/labs/oauth/secure/">You are already logged in!</a>
+<a href="en/labs/eleventy-serverless-oauth/secure/">You are already logged in!</a>
 
-{% include "/eleventy-serverless-oauth/logout.njk" %}
+{% include "components/labs/eleventy-serverless-oauth/logout.njk" %}
 {% else %}
 <form action="/.netlify/functions/auth-before">
-  <input type="hidden" name="securePath" value="/secure/">
+  <input type="hidden" name="securePath" value="/en/secure/">
   <button type="submit" name="provider" value="netlify">Login with Netlify</button>
   <button type="submit" name="provider" value="github">Login with GitHub</button>
   <button type="submit" name="provider" value="gitlab">Login with GitLab</button>

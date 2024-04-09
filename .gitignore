@@ -22,3 +22,6 @@ netlify/functions/dynamic/*
 # demo-eleventy-serverless
 netlify/functions/serverless/*
 !netlify/functions/serverless/index.js
+# Eleventy Serverless
+netlify/functions/auth/*
+!netlify/functions/auth/index.js

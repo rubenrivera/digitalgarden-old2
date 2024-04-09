@@ -3,62 +3,70 @@ publish = "dist"
 command = "npm install && npm run build"
 
 [[redirects]]
-from = "/labs/oauth/"
+from = "en/pages/auth"
+to = "/.netlify/functions/auth"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "auth"
+
+[[redirects]]
+from = "es/pages/auth"
+to = "/.netlify/functions/auth"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "auth"
+
+[[redirects]]
+from = "/pages/auth"
+to = "/.netlify/functions/auth"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "auth"
+
+[[redirects]]
+from = "/es/pages/secure/"
+to = "/.netlify/functions/auth"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "auth"
+
+[[redirects]]
+from = "/en/pages/secure/"
+to = "/.netlify/functions/auth"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "auth"
+
+[[redirects]]
+from = "en/labs/eleventy-serverless/:slug/dynamic/"
 to = "/.netlify/functions/dynamic"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "dynamic"
 
 [[redirects]]
-from = "/labs/oauth/secure/"
+from = "en/labs/eleventy-serverless-oauth/secure/"
 to = "/.netlify/functions/dynamic"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "dynamic"
 
 [[redirects]]
-from = "/labs/eleventy-serverless/:slug/dynamic/"
+from = "en/labs/eleventy-serverless-oauth/"
 to = "/.netlify/functions/dynamic"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "dynamic"
 
 [[redirects]]
-from = "/labs/eleventy-serverless/:slug/"
+from = "en/labs/eleventy-serverless/:slug/"
 to = "/.netlify/builders/serverless"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "serverless"
 
 [[redirects]]
-from = "/api/*"
-to = "/.netlify/functions/:splat"
-status = 200
-
-[[redirects]]
-from = "/*"
-to = "/404"
-status = 404
-
-[[redirects]]
 from = "/"
-to = "/secure/"
-status = 302
+to = "/home/"
+status = 200
 force = true
-
-  [redirects.conditions]
-  Cookie = [ "_11ty_oauth_token" ]
-
-[[redirects]]
-from = "/es/*"
-to = "/:splat"
-status = 301
-force = true
-
-[[redirects]]
-from = "/*"
-to = "/en/:splat"
-status = 302
-
-  [redirects.conditions]
-  Language = [ "en" ]

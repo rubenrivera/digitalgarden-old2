@@ -137,6 +137,12 @@ eleventyConfig.addPlugin(i18n, {
 		redirects: "netlify-toml-functions",
 	});
 
+  // Fully dynamic template for comparison
+	eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
+		name: "auth",
+		functionsDir: "./netlify/functions/",
+		redirects: "netlify-toml-functions",
+	});
 	// testing
 	eleventyConfig.addFilter("dateDebug", inputPath => {
 		return fs.statSync(inputPath);

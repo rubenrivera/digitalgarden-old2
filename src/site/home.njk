@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="{{ meta.mainLanguage }}">
+    <head>
+        <title>Jardín Digital de Rubén</title>
+        <link href="/styles/digital-garden-base.css" rel="stylesheet">
+        {%-if meta.themeStyle%}
+            <link href="/styles/obsidian-base.css" rel="stylesheet">
+    	    <link href="{{meta.themeStyle}}" rel="stylesheet">
+        {% else %}
+            <link href="/styles/style.css" rel="stylesheet">
+        {%endif%}
+
+        <link href="/styles/custom-style.css" rel="stylesheet">
+        <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+        .cell {
+            display: table-cell; 
+            text-align: center; 
+            width: 300px;
+        }
+        </style>
+    </head>
+    <body class="theme-{{meta.baseTheme}} markdown-preview-view">
+        <div class="content centered">
+
+            {%-if not meta.themeStyle%}
+                <div class="font-bg"> &#x1F60E; </div>
+            {%endif%}
+            <h1>Jardín Digital de Rubén</h1>
+            <div class="center"><img src="img/foto.png" /></div>
+            <div style="display: table">
+                <div style="display: table-row">
+                    <div class="cell"><h2><a href="en/pages/home">Español</a></h2></div>
+                    <div class="cell"><h2><a lang="en" href="en/pages/home">English</a></h2></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,12 +1,12 @@
 ---
 permalink:
-  dynamic: "/labs/oauth/secure/"
+  dynamic: "en/labs/eleventy-serverless-oauth/secure/"
 secure:
-  unauthenticatedRedirect: "/labs/oauth/"
+  unauthenticatedRedirect: "en/labs/eleventy-serverless-oauth/"
 ---
 <h2>{{ user.name or user.full_name }}, this page is secure.</h2>
 
-{% include "logout.njk" %}
+{% include "components/labs/elecventy-serverless-oauth/logout.njk" %}
 
 <img src="{{ user.avatar_url or user.avatar }}" alt="Avatar for {{ user.name or user.full_name }}">
 

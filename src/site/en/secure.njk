@@ -1,0 +1,16 @@
+---
+permalink:
+  auth: "/en/pages/secure/"
+secure:
+  unauthenticatedRedirect: "/en/pages/auth"
+---
+<h2>{{ user.name or user.full_name }}, this page is secure.</h2>
+
+{% include "components/logout.njk" %}
+
+<img src="{{ user.avatar_url or user.avatar }}" alt="Avatar for {{ user.name or user.full_name }}">
+
+<h3>Your user information:</h3>
+<pre>
+{{ user | dump(2) }}
+</pre>
