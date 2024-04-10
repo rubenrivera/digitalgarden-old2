@@ -7,7 +7,7 @@ permalink:
 
 {% include "components/labs/eleventy-serverless-oauth/logout.njk" %}
 {% else %}
-<form action="/.netlify/functions/auth-before">
+<form action="/.netlify/functions/demo-oauth/auth-before">
   <input type="hidden" name="securePath" value="/en/secure/">
   <button type="submit" name="provider" value="netlify">Login with Netlify</button>
   <button type="submit" name="provider" value="github">Login with GitHub</button>

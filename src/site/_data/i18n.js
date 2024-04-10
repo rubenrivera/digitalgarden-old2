@@ -27,6 +27,18 @@ module.exports = {
         'en' : 'Notegrowth',
         'es' : 'Notegrowth'
     },
+    nothingHere: {
+        'en' : 'Nothing here',
+        'es' : 'Nada aquí'
+    },
+    thereIsNothingHere :{
+        'en': 'There is nothing here',
+        'es': 'No hay nada aquí'
+    },
+    ifYouGotHere: {
+        'en': 'If you got here from a link, this note is probably not made public',
+        'es': 'Si llegaste aquí siguiendo un enlace, es probable que la nota no se haya publicado.'
+    },
     noOtherPages: {
         'en': 'No other pages mentions this page',
         'es': 'Ninguna otra página menciona esta página.'

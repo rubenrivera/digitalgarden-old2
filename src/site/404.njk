@@ -1,8 +1,8 @@
 
 <!DOCTYPE html>
-<html lang="{{ meta.mainLanguage }}">
+<html lang="{{ page.lang or meta.mainLanguage }}" dir="{{ i18nlanguages[page.lang].dir or 'ltr' }}">
     <head>
-        <title>Nada aquí</title>
+        <title>{{ 'nothingHere' | i18n }}</title>
         <link href="/styles/digital-garden-base.css" rel="stylesheet">
         {%-if meta.themeStyle%}
             <link href="/styles/obsidian-base.css" rel="stylesheet">
@@ -20,8 +20,8 @@
             {%-if not meta.themeStyle%}
                 <div class="font-bg"> &#x1F60E; </div>
             {%endif%}
-            <h1>No hay nada aquí</h1>
-            <p>Si llegaste aquí siguiendo un enlace, es probable que la nota no se haya publicado.</p>
+            <h1>{{ 'thereIsNothingHere' | i18n }}</h1>
+            <p>{{ 'ifYouGotHere' | i18n }}</p>
             <a href="/">Volver al inicio</a>
         </div>
     </body>

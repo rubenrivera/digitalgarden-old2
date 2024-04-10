@@ -137,7 +137,9 @@ eleventyConfig.addPlugin(i18n, {
 		redirects: "netlify-toml-functions",
 	});
 
-  // Fully dynamic template for comparison
+  /**
+   * demo-eleventy-severless-oauth
+   */
 	eleventyConfig.addPlugin(EleventyServerlessBundlerPlugin, {
 		name: "auth",
 		functionsDir: "./netlify/functions/",
@@ -148,9 +150,7 @@ eleventyConfig.addPlugin(i18n, {
 		return fs.statSync(inputPath);
 	})
 
-  /**
-   * demo-eleventy-severless-oauth
-   */
+
 }
 exports.userMarkdownSetup = userMarkdownSetup;
 exports.userEleventySetup = userEleventySetup;
