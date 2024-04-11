@@ -2,6 +2,10 @@
   publish = "dist"
   command = "npm install && npm run build"
 
+[context.dev]
+  publish = "dist"
+  command = "npm install && npm run start"
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
