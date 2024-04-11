@@ -1,5 +1,5 @@
 ---
-{"title":"Página Simple","dg-publish":true,"dg-show-local-graph":"false","dg-enable-search":"false","dg-show-backlinks":"false","dg-show-file-tree":"false","dg-home-link":"false","dg-show-toc":"false","dg-pass-frontmatter":"true","dg-user-show-footer":"false","permalink":"/es/examples/simple/","dgHomeLink":"false","dgPassFrontmatter":"true","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false"}
+{"title":"Página Simple","dg-publish":true,"dg-show-local-graph":false,"dg-enable-search":false,"dg-show-backlinks":false,"dg-show-file-tree":false,"dg-home-link":false,"dg-show-toc":false,"dg-pass-frontmatter":true,"dg-user-show-footer":false,"permalink":"/es/examples/simple/","dgPassFrontmatter":true}
 ---
 
 
@@ -9,20 +9,16 @@ Esta es una página de ejemplo que muestra cómo se vería una página creada de
 Las propiedades asignadas de forma directa a la nota en Obsidian son las siguientes:
 
 ```
-dg-publish: "true"
-dg-show-local-graph: "false"
-dg-enable-search: "false"
-dg-show-backlinks: "false"
-dg-show-file-tree: "false"
-dg-home-link: "false"
-dg-show-toc: "false"
-dg-pass-frontmatter: "true"
-dg-user-show-footer: "false"
+dg-publish: true
+dg-show-local-graph: false
+dg-enable-search: false
+dg-show-backlinks: false
+dg-show-file-tree: false
+dg-home-link: false
+dg-show-toc: false
+dg-pass-frontmatter: true
+dg-user-show-footer: false
 ```
-
-A continuación se muestra una de las formas en las que se muestran las propiedades en Obsidian:
-
-![Pasted image 20240411174648.png|Propiedades en Obsidian](/img/user/Pasted%20image%2020240411174648.png)
 
 
 ## Referencia
