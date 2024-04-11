@@ -1,0 +1,23 @@
+#footer.navbar {        
+    top: calc(100vh - 50px) !important;
+    bottom: 0 !important;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: 100%;
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+}

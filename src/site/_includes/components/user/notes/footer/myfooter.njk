@@ -1,0 +1,29 @@
+<!--
+<footer>
+  {{ languages[page.lang].availableText }}
+
+  <nav class="navbar" id="footer" aria-label="{{ languages[page.lang].ariaLang }}">
+    {% for link in page.url | locale_links %} {%- if not loop.first %}/{% endif %}
+
+    <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">{{
+      link.label
+    }}</a>
+    {% endfor %}
+  </nav>
+</footer>
+-->
+<footer>
+  <nav id="footer" class="navbar" aria-label="{{ languages[page.lang].ariaLang }}">
+    <ul>
+        <li><a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">
+        {{ page.lang | upper }}
+        </a></li>
+
+        {% for link in page.url | locale_links %}
+        <li><a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+        {{ link.lang | upper }}</a
+        ></li>
+        {% endfor %}
+    </ul>
+  </nav>
+</footer>

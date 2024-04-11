@@ -1,18 +1,51 @@
 [build]
-  publish = "dist"
-  command = "npm install && npm run build"
-
-[context.dev]
-  publish = "dist"
-  command = "npm install && npm run start"
+publish = "dist"
+command = "npm install && npm run build"
 
 [[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+from = "/login/"
+to = "/.netlify/functions/authorization"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "authorization"
 
 [[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 404
+from = "/secure/"
+to = "/.netlify/functions/authorization"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "authorization"
 
+[[redirects]]
+from = "/"
+to = "/secure/"
+status = 302
+force = true
+
+  [redirects.conditions]
+  Cookie = [ "_11ty_oauth_token" ]
+
+[[redirects]]
+from = "/api/*"
+to = "/.netlify/functions/:splat"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/404"
+status = 404
+
+[[redirects]]
+from = "/"
+to = "/es"
+status = 302
+force = true
+
+  [redirects.conditions]
+  Language = [ "es" ]
+
+[[redirects]]
+from = "/"
+to = "/es"
+status = 302
+force = true
