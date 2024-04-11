@@ -1,5 +1,5 @@
 ---
-{"title":"Página Simple","dg-publish":true,"dg-show-local-graph":false,"dg-enable-search":false,"dg-show-backlinks":false,"dg-show-file-tree":false,"dg-home-link":false,"dg-show-toc":false,"dg-pass-frontmatter":"true","dg-user-show-footer":false,"permalink":"/es/examples/simple/","dgPassFrontmatter":"true"}
+{"title":"Página Simple","dg-publish":true,"dg-show-local-graph":"false","dg-enable-search":"false","dg-show-backlinks":"false","dg-show-file-tree":"false","dg-home-link":"false","dg-show-toc":"false","dg-pass-frontmatter":"true","dg-user-show-footer":"false","permalink":"/es/examples/simple/","dgHomeLink":"false","dgPassFrontmatter":"true","dgShowBacklinks":"false","dgShowLocalGraph":"false","dgShowFileTree":"false","dgEnableSearch":"false","dgShowToc":"false"}
 ---
 
 
@@ -10,14 +10,14 @@ Las propiedades asignadas de forma directa a la nota en Obsidian son las siguien
 
 ```
 dg-publish: "true"
-dg-show-local-graph: false
-dg-enable-search: false
-dg-show-backlinks: false
-dg-show-file-tree: false
-dg-home-link: false
-dg-show-toc: false
+dg-show-local-graph: "false"
+dg-enable-search: "false"
+dg-show-backlinks: "false"
+dg-show-file-tree: "false"
+dg-home-link: "false"
+dg-show-toc: "false"
 dg-pass-frontmatter: "true"
-dg-user-show-footer: false
+dg-user-show-footer: "false"
 ```
 
 A continuación se muestra una de las formas en las que se muestran las propiedades en Obsidian:
