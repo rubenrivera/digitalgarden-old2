@@ -3,5 +3,5 @@
 ---
 
 ![portrait.jpg](/img/user/www/img/portrait.jpg)
-- [[es/index\|Español]] <span lang="es" title="España">🇪🇸</span><span lang="es" title="México"> 🇲🇽</span>
-- [[en/index\|English]]<span lang="en" title="Great Britain"> 🇬🇧 </span><span lang="en" title="United States">🇺🇸</span>
+- [[es/home\|Español]] <span lang="es" title="España">🇪🇸</span><span lang="es" title="México"> 🇲🇽</span>
+- [[en/home\|English]]<span lang="en" title="Great Britain"> 🇬🇧 </span><span lang="en" title="United States">🇺🇸</span>
