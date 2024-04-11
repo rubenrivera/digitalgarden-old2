@@ -22,7 +22,7 @@ dg-user-show-footer: "false"
 
 A continuación se muestra una de las formas en las que se muestran las propiedades en Obsidian:
 
-![Pasted image 20240411173143.png|Propiedades en Obsidian](/img/user/Pasted%20image%2020240411173143.png).
+![Pasted image 20240411174648.png|Propiedades en Obsidian](/img/user/Pasted%20image%2020240411174648.png)
 
 
 ## Referencia
