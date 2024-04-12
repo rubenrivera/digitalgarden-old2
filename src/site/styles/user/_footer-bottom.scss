@@ -1,11 +1,22 @@
+body {
+  padding-bottom: 0 !important;
+}
+
 #footer {
+  .bottom-navbar {
+    @extend .navbar !optional;
+    position: absolute;
+    width: calc(100vw - var(--file-margings));
+    top: auto;
+    bottom: 0;    
+    align-items: right;
+  }
 
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding-inline-end: 40px;
   }
 
   li {
@@ -20,7 +31,3 @@
   }
 }
 
-#footer.navbar {
-    top: calc(100vh - 50px) !important;
-    bottom: 0 !important;
-  }
