@@ -1,0 +1,37 @@
+---
+permalink:
+  authorization: "/login/"
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+    <head>
+        <title>{{ languages[page.lang].loginTitle }}</title>
+        <link href="/styles/digital-garden-base.css" rel="stylesheet">
+        {%-if meta.themeStyle%}
+            <link href="/styles/obsidian-base.css" rel="stylesheet">
+    	    <link href="{{meta.themeStyle}}" rel="stylesheet">
+        {% else %}
+            <link href="/styles/style.css" rel="stylesheet">
+        {%endif%}
+
+        <link href="/styles/custom-style.css" rel="stylesheet">
+        
+    </head>
+    <body class="theme-{{meta.baseTheme}} markdown-preview-view">
+        <div class="content centered">
+
+          <div class="form">
+                <div class="form-title-container">
+                      <div class="form-title">
+                            {{ languages[page.lang].loginTitle }}
+                      </div>
+                </div>
+                <div class="form-container">
+                      {% include "components/user/auth/loginForm.njk" %}
+                </div>
+          </div>
+
+        </div>
+    </body>
+</html>

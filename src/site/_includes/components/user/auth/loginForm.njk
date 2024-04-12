@@ -1,0 +1,37 @@
+<style>
+  .login-button {
+    background-color: var(--background-primary);
+    border-radius: 20px;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    min-width: 150px;
+    margin: 10px 40px;
+    border: 1px solid var(--text-normal);
+    cursor: pointer;
+
+    > i {
+        margin-left: 10px;
+    }
+
+    &:hover {
+        border: 1px solid var(--text-accent);
+    }
+
+    .login-icon {
+        display: flex;
+    }
+  }
+</style>
+  {% if user %}
+  <a href="/secure/">{{ languages[page.lang].youAreAlready }}</a>
+
+  {% include "layouts/user/auth/logout.njk" %}
+  {% else %}
+  <form action="/.netlify/functions/auth-before">
+    <input type="hidden" name="securePath" value="/secure/">
+    <button class="login-button" type="submit" name="provider" value="netlify">Login with Netlify</button>
+    <button class="login-button" type="submit" name="provider" value="github">Login with GitHub</button>
+    <button class="login-button" type="submit" name="provider" value="gitlab">Login with GitLab</button>
+  </form>
+  {% endif %}
