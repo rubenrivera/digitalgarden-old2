@@ -1,5 +1,5 @@
 ---
-{"title":{"{ userData | i18n }":null},"description":"Página para mostrar los datos del usuario","dg-publish":true,"dg-pass-frontmatter":true,"permalink":"/www/user/","secure":{"unauthenticatedRedirect":"/"},"dgPassFrontmatter":true}
+{"title":"{{ userData | i18n }}","description":"Página para mostrar los datos del usuario","dg-publish":true,"dg-pass-frontmatter":true,"permalink":"/www/user/","secure":{"unauthenticatedRedirect":"/"},"dg-hide":"true","hide":"true","dgPassFrontmatter":true}
 ---
 
 <h2>{{ user.name or user.full_name or user.localizedFirstName }}, {{thisPageIsSecure | i18n }}</h2>
