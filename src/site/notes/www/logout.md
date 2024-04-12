@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"logout.njk","permalink":"/logout.njk/","title":{"{ logout | i18n }":null}}
+{"dg-publish":true,"dg-permalink":"logout.njk","permalink":"/logout.njk/","title":"{{ logout | i18n }}","hide":"true"}
 ---
 
 {}
