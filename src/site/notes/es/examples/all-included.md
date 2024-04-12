@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/es/examples/all-included/","title":"Página Simple","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true}
+{"dg-publish":true,"permalink":"/es/examples/all-included/","title":"Página Todo Incluído","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true}
 ---
 
 
