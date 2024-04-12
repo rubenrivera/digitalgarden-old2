@@ -10,5 +10,6 @@ La siguiente lista incluye enlaces a páginas de ejemplo de lo que se puede logr
 
 - [[es/examples/all-included\|all-included]]
 - [[es/examples/simple\|simple]]
+- [[es/examples/alternate-checkboxes\|alternate-checkboxes]]
 
 { .block-language-dataview}
