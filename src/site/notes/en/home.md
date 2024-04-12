@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/en/home/","title":"Jardín Digital de Rubén"}
+{"dg-publish":true,"permalink":"/en/home/","title":"Welcoming"}
 ---
 
 # Welcome!
