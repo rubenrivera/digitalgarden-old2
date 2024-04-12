@@ -1,0 +1,26 @@
+#footer {
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-inline-end: 40px;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+}
+
+#footer.navbar {
+    top: calc(100vh - 50px) !important;
+    bottom: 0 !important;
+  }
