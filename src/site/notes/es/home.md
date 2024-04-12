@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/es/home/","title":"Jardín Digital"}
+{"dg-publish":true,"permalink":"/es/home/","title":"Bienvenida"}
 ---
 
 # ¡Bienvenido!
