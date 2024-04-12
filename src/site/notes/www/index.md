@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/www/index/","title":"Jardín Digital de Rubén","metatags":{"description":"","og-title":"Jardín Digital de Rubén","og-image":""},"tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/www/index/","title":"Jardín Digital","metatags":{"description":"","og-title":"Jardín Digital de Rubén","og-image":""},"tags":["gardenEntry"]}
 ---
 
 ![portrait.jpg](/img/user/www/img/portrait.jpg)
